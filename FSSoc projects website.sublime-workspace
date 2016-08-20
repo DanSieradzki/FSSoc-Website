@@ -1,0 +1,315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"underline",
+				"underlineHover"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"function",
+				"function"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7050,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 5317,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 2219,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/diamante.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/deltaStream.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/stingray.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/vista.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/tempest.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/genesis.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/aurora.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/stingray.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/css/genesis.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/css/deltaStream.html",
+		"/C/Users/Daniel/Documents/SourceTree/Function library/js/plugins.js",
+		"/C/Users/Daniel/Documents/SourceTree/Function library/js/data.js",
+		"/C/Users/Daniel/Documents/SourceTree/Function library/js/main.js",
+		"/C/Users/Daniel/Documents/SourceTree/Function library/js/functions.js",
+		"/C/Users/Daniel/Documents/SourceTree/Function library/index.html",
+		"/C/Users/Daniel/Documents/SourceTree/Treehouse php basic website/header.php",
+		"/C/Users/Daniel/Documents/SourceTree/Treehouse php basic website/suggest.php",
+		"/C/Users/Daniel/Documents/SourceTree/Treehouse php basic website/footer.php",
+		"/C/Users/Daniel/Documents/SourceTree/Treehouse php basic website/index.html",
+		"/C/Users/Daniel/Documents/SourceTree/Treehouse/Treehouse.html",
+		"/C/Users/Daniel/Documents/SourceTree/practising bootstrap/index.html",
+		"/C/Users/Daniel/Documents/SourceTree/Treehouse/index.php",
+		"/C/Users/Daniel/Documents/SourceTree/practising bootstrap/css/main.css",
+		"/C/Users/Daniel/Documents/SourceTree/practising bootstrap/css/boilerplate.css",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/js/main.js",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/css/main.css",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/index.html",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/css/boilerplate.css",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/css/normalize.css",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/js/plugins.js",
+		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/css/Boilerplate.css",
+		"/C/Users/Daniel/Documents/SourceTree/daniel-memes/index.html",
+		"/C/Users/Daniel/Documents/SourceTree/daniel-memes/css/main.css",
+		"/C/Users/Daniel/Desktop/boilerplate template/index.html",
+		"/C/Users/Daniel/Desktop/boilerplate template/doc/html.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"min",
+			"650px",
+			"padding"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 7050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2127,
+								2127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 491.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 5317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3231,
+								3231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2139.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 2219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 579.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true
+}

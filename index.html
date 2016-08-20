@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">        
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FSSoc Projects</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="img/logo.png" type='img/logo.png'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/boilerplate.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+
+
+        <svg height="200" width="100%">
+             <defs>
+                <radialGradient id="grad1" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" style="stop-color:hsl(0,50%,100%); "/>
+                    <stop offset="50%" style="stop-color:hsl(0,50%,100%); "/>
+                    <stop offset="100%" style="stop-color:hsl(212,15%,15%); "/>
+                </radialGradient>
+            </defs>
+            <polygon id="topNavPoly" points="0,0 0,100 145,100 185,50 2000,50 2000,0"/>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+        <a href="#">
+            <img src="img/logo.png" id="logo" alt="Logo" style="width:120px;height:100px;">
+        </a>
+        <ul class="topNavClass" id="topNavId">
+            <li class="topNavLi">
+                <a href="#" id="Home" class="topNavBtn" onmouseover="underlineHover(this)">Home</a>
+                <span id="homeUnderline" class="underline"></span>
+            </li>                
+            <li>
+                <div class="topNavLi">
+                    <a href="#" id="Projects" class="topNavBtn">Projects</a>
+                    <!-- <span id="projectsUnderline" class="underline"></span> -->
+                    <div class="dropdown">
+                        <a href="#">It Flies</a>
+                        <a href="#">Pheonix</a>
+                        <a href="#">3rd Year Projects</a>
+                        <a href="#">4th Year Projects</a>
+                    </div>
+                </div>
+            </li>
+                
+            <li>
+                <a href="#" id="Calendar" onmouseover="underlineHover(this)">Calendar</a>
+                <!-- <span id="calendarUnderline" class="underline"></span> -->
+            </li>
+            <li>
+                <a href="#" id="Tutorials" onmouseover="underlineHover(this)">Tutorials</a>
+                <!-- <span id="tutorialsUnderline" class="underline"></span> -->
+            </li>
+            <li>
+                <a href="#" id="Intranet" onmouseover="underlineHover(this)">Intranet</a>
+                <!-- <span id="intranetUnderline" class="underline"></span> -->
+            </li>
+            <li>
+                <a href="#" id="Contact" onmouseover="underlineHover(this)">Contact</a>
+                <!-- <span id="contactUnderline" class="underline"></span> -->
+            </li>                
+            <li>
+                <a href="#" id="Login" onmouseover="underlineHover(this)">Login</a>
+                <!-- <span id="loginUnderline" class="underline"></span> -->
+            </li> 
+        </ul>
+
+    <div id="sideNavId" class="sideNavClass">       
+      <!--  <input type="text" class="searchBarClass" name="searchBar"  placeholder="Search..."> -->
+
+      <!-- search pushes down accordions and displays relevant projects based on search results which can include: project title, member names, etc. Aletrnatively, have options to sort by year, name, etc.-->
+      <!-- Add a home page button to refer back to index -->
+      <!-- enable a tab to switch between UK and US competitions -->
+      <div>
+        <div>
+            <a href="#" class="accordion">2015-2016</a>
+            <div class="panel" id="1516">           
+                <div class="pplink" id="deltaStream">
+                    <a href='projects/deltaStream.html'>Delta Stream</a>
+                </div>
+                <div class="pplink" id="genesis">
+                    <a href='projects/genesis.html'>Genesis</a>
+                </div>
+                <div class="pplink" id="stingray">
+                    <a href='projects/stingray.html'>Stingray</a>
+                </div>
+                <div class="pplink" id="diamante">
+                    <a href='projects/diamante.html'>Diamante</a>
+                </div>
+            </div>
+            <a href="#" class="accordion">2014-2015</a>
+            <div class="panel" id="1415">
+                <div class="pplink" id="swift">
+                    <a href='projects/swift.html'>Swift</a>
+                </div>
+            </div>
+            <a href="#" class="accordion">2013-2014</a>
+            <div class="panel" id="1314">
+                <div class="pplink" id="tempest">
+                    <a href='projects/tempest.html'>Tempest</a>
+                </div>
+                <div class="pplink" id="zenith">
+                    <a href='projects/zenith.html'>Zenith</a>
+                </div>
+            </div>
+            <a href="#" class="accordion">2012-2013</a>
+            <div class="panel" id="1213">
+                <div class="pplink" id="vista">
+                    <a href='projects/vista.html'>Vista</a>
+                </div>
+                <div class="pplink" id="aura">
+                    <a href='projects/aura.html'>Aura</a>
+                </div>
+            </div>
+            <a href="#" class="accordion">2011-2012</a>
+            <div class="panel" id="1112">
+                <div class="pplink" id="aurora">
+                    <a href='projects/aurora.html'>Aurora</a>
+                </div>
+            </div>        
+        </div>
+        <a href='#' class="sNFooter">About</a>
+        <a href='#' class="sNFooter">Contact</a>
+    </div>
+    <a id="toggleSideNavId" class="toggleSideNav" onclick="toggleNav()">&#10094;</a>                
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+e.src='https://www.google-analytics.com/analytics.js';
+r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+</body>
+</html>
