@@ -22,60 +22,39 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
 
-
-        <svg height="200" width="100%">
-             <defs>
-                <radialGradient id="grad1" gradientUnits="userSpaceOnUse">
-                    <stop offset="0%" style="stop-color:hsl(0,50%,100%); "/>
-                    <stop offset="50%" style="stop-color:hsl(0,50%,100%); "/>
-                    <stop offset="100%" style="stop-color:hsl(212,15%,15%); "/>
-                </radialGradient>
-            </defs>
-            <polygon id="topNavPoly" points="0,0 0,100 145,100 185,50 2000,50 2000,0"/>
-            Sorry, your browser does not support inline SVG.
-        </svg>
-        <a href="#">
-            <img src="img/logo.png" id="logo" alt="Logo" style="width:120px;height:100px;">
+    <header>
+        <a href="#" id="logo">
+            <img src="img/logo.png" alt="Logo">
         </a>
         <ul class="topNavClass" id="topNavId">
-            <li class="topNavLi">
-                <a href="#" id="Home" class="topNavBtn" onmouseover="underlineHover(this)">Home</a>
-                <span id="homeUnderline" class="underline"></span>
+            <li class="topNavLi one">
+                <a href="#" id="Home" class="topNavBtn">Home</a>
             </li>                
-            <li>
-                <div class="topNavLi">
-                    <a href="#" id="Projects" class="topNavBtn">Projects</a>
-                    <!-- <span id="projectsUnderline" class="underline"></span> -->
-                    <div class="dropdown">
-                        <a href="#">It Flies</a>
-                        <a href="#">Pheonix</a>
-                        <a href="#">3rd Year Projects</a>
-                        <a href="#">4th Year Projects</a>
-                    </div>
+            <li class="topNavLi two">
+                <a href="#" id="Projects" class="topNavBtn">Projects</a>
+                <div class="dropdown">
+                    <a href="#">It Flies</a>
+                    <a href="#">Pheonix</a>
+                    <a href="#">3rd Year Projects</a>
+                    <a href="#">4th Year Projects</a>
                 </div>
-            </li>
+            </li><!--
                 
-            <li>
-                <a href="#" id="Calendar" onmouseover="underlineHover(this)">Calendar</a>
-                <!-- <span id="calendarUnderline" class="underline"></span> -->
+            --><li class="topNavLi three">
+                <a href="#" id="Calendar">Calendar</a>
+            </li><!--
+            --><li class="topNavLi four">
+                <a href="#" id="Tutorials">Tutorials</a>
+            </li><!--
+            --><li class="topNavLi five">
+                <a href="#" id="Intranet">Intranet</a>
+            </li><!--
+            --><li class="topNavLi six">
+                <a href="#" id="Contact">Contact</a>
             </li>
-            <li>
-                <a href="#" id="Tutorials" onmouseover="underlineHover(this)">Tutorials</a>
-                <!-- <span id="tutorialsUnderline" class="underline"></span> -->
-            </li>
-            <li>
-                <a href="#" id="Intranet" onmouseover="underlineHover(this)">Intranet</a>
-                <!-- <span id="intranetUnderline" class="underline"></span> -->
-            </li>
-            <li>
-                <a href="#" id="Contact" onmouseover="underlineHover(this)">Contact</a>
-                <!-- <span id="contactUnderline" class="underline"></span> -->
-            </li>                
-            <li>
-                <a href="#" id="Login" onmouseover="underlineHover(this)">Login</a>
-                <!-- <span id="loginUnderline" class="underline"></span> -->
-            </li> 
+            <hr/>
         </ul>
+    </header>
 
     <div id="sideNavId" class="sideNavClass">       
       <!--  <input type="text" class="searchBarClass" name="searchBar"  placeholder="Search..."> -->

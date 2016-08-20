@@ -37,35 +37,71 @@ section: h2   {
 
 /*=================== TOP NAVIGATION ===================*/
 
-#topNavPoly {
-    fill: transparent;
-    stroke:#333;
-    stroke-width:3
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #eee;
 }
 
-#logo   {
+#logo {
     position: absolute;
-    top: 4px;
-    left: 20px;
+    height: 50px;
+    margin: 5px 0 0 5px;
+}
+#logo img {
+    top: 0;
+    height: 100%;
 }
 
-/* Remove margins and padding from the list, and add a black background color */
 ul.topNavClass {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: transparent;
-    position: absolute;
-    display: inline-block;
-    left: 30.5%;
-    top: 0;
-    z-index: 1;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    height: 100%;
 }
 
-ul.topNavClass li {
-    float: left;
-    width: 14%;
+ul li {
+    display: inline;
+    text-align: center;
+    height: 100%;
+    width: 15%;
+}
+
+.one:hover ~ hr {
+  margin-left: 5%;
+}
+
+.two:hover ~ hr {
+  margin-left: 20%;
+}
+
+.three:hover ~ hr {
+  margin-left: 35%;
+}
+
+.four:hover ~ hr {
+  margin-left: 50%;
+}
+
+.five:hover ~ hr {
+  margin-left: 65%;
+}
+
+.six:hover ~ hr {
+  margin-left: 80%;
+}
+
+hr {
+    height: .25rem;
+    width: 15%;
+    margin: 0;
+    background: tomato;
+    border: none;
+    transition: .3s ease-in-out;
+    margin-left: 5%;
 }
 
 ul.topNavClass > li a {
@@ -76,11 +112,6 @@ ul.topNavClass > li a {
     position: relative;
     text-decoration: none;
     font-size: 17px;
-}
-
-ul.topNavClass > li a:hover {
-    color: #000;
-    font-weight: bold;
 }
 
 ul.topNavClass > li a::after {
@@ -124,22 +155,6 @@ ul.topNavClass li.icon {
 
 .dropdown:hover {
     display: block;
-}
-
-.underline  {
-    content: '';
-    position: absolute;
-    height: 0;        
-    margin: 0 1% 0 1%;
-    bottom: -4px;
-    border-width: 0 35px 5px 35px;
-    border-style: none solid solid;
-    border-color: transparent;
-    left: 0;
-    text-align: center;
-    background-color: #333;
-    z-index: -1;
-    transition: 0.1s;
 }
 
 /*=================== TOP NAVIGATION DROPDOWN ===================*/
