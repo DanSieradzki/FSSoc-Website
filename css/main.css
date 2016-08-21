@@ -110,7 +110,7 @@ ul.topNavClass > li a {
     display: inline-block;
     color: #3f3f3f;
     text-align: center;
-    padding: 13.5% 20px;  /*Needs to be addressed in media queries*/
+    padding: 10% 20px;  /*Needs to be addressed in media queries*/
     position: relative;
     text-decoration: none;
     font-size: 17px;
@@ -141,7 +141,6 @@ ul.topNavClass li.icon {
     position: absolute;
     background-color: #555;
     z-index: -1;
-    /*box-shadow: 0 8px 16px 0 */
 }
 
 .dropdown a {
@@ -177,10 +176,8 @@ ul.topNavClass li.icon {
 
 .dropdown {
     display: none;
-    /*position: absolute;*/
     background-color: #eee;
-    min-width: 50px;
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown a {
