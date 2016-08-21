@@ -41,6 +41,7 @@ header {
     height: 60px;
     width: 100%;
     background-color: #eee;
+    text-align: left;
 }
 
 #logo {
@@ -58,7 +59,7 @@ ul.topNavClass {
     padding: 0;
     background-color: transparent;
     text-align: center;
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
     height: 100%;
 }
@@ -98,10 +99,11 @@ hr {
     height: .25rem;
     width: 15%;
     margin: 0;
-    background: tomato;
+    background: #ff320d;
     border: none;
     transition: .3s ease-in-out;
     margin-left: 5%;
+    z-index: +1;
 }
 
 ul.topNavClass > li a {
@@ -136,10 +138,10 @@ ul.topNavClass li.icon {
 
 .dropdown   {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #555;
-    
-    box-shadow: 0 8px 16px 0 
+    z-index: -1;
+    /*box-shadow: 0 8px 16px 0 */
 }
 
 .dropdown a {
@@ -154,7 +156,7 @@ ul.topNavClass li.icon {
 }
 
 .dropdown:hover {
-    display: block;
+    /*display: block;*/
 }
 
 /*=================== TOP NAVIGATION DROPDOWN ===================*/
@@ -176,9 +178,9 @@ ul.topNavClass li.icon {
 .dropdown {
     display: none;
     /*position: absolute;*/
-    background-color: #f9f9f9;
+    background-color: #eee;
     min-width: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 }
 
 .dropdown a {
