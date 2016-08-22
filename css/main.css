@@ -20,21 +20,6 @@ p	{
     background-size: cover;    
 }
 
-/*=============================================*/
-
-
-section: last child   {
-    margin-bottom: 0;
-}
-
-section: h2   {
-    margin-bottom: 40px;
-    font-family: "open Sans", sans-serif
-    font-size: 30px;
-}
-
-
-
 /*=================== TOP NAVIGATION ===================*/
 
 header {
@@ -51,62 +36,69 @@ header {
 }
 #logo img {
     top: 0;
-    height: 100%;
+    height: 100%; 
 }
 
 ul.topNavClass {
     list-style-type: none;
     padding: 0;
     background-color: transparent;
-    text-align: center;
-    max-width: 60%;
-    margin: auto;
-    height: 100%;
+    text-align: none;
+    width: 50%; /*width across which topNav spans*/
+    margin: auto; /*equal margin on either side of topNav*/
+    height: 100%; /*100% of header height*/
 }
 
 ul li {
     display: inline;
     text-align: center;
-    height: 100%;
-    width: 15%;
+    height: 100%; /*100% height of ul, which in turn is 100% height of header*/
+    width: 16%; /*width of list element with respect to ul*/
 }
 
 .one:hover ~ hr {
-  margin-left: 5%;
+/*  margin-left: 0%;*/
+transform: translate(0%);
 }
 
 .two:hover ~ hr {
-  margin-left: 20%;
+/*  margin-left: 17%;*/
+transform: translate(103%);
 }
 
 .three:hover ~ hr {
-  margin-left: 35%;
+/*  margin-left: 33%;*/
+transform: translate(205%);
 }
 
 .four:hover ~ hr {
-  margin-left: 50%;
+/*  margin-left: 50%;*/
+transform: translate(308%);
 }
 
 .five:hover ~ hr {
-  margin-left: 65%;
+/*  margin-left: 67%;*/
+transform: translate(410%);
 }
 
 .six:hover ~ hr {
-  margin-left: 80%;
+/*  margin-left: 83%;*/
+transform: translate(513%);
 }
 
 hr {
     height: .25rem;
-    width: 15%;
+    width: 16%; 
     margin: 0;
     background: #ff320d;
     border: none;
-    transition: .3s ease-in-out;
-    margin-left: 5%;
-    z-index: +1;
+    transition: .15s ease-in-out;
+    /*transform:translate(0%);*/
+    /*margin-left: 0%; unfocussed and starting distance between hr and left edge of constraint - refer to html document to set this*/
+    z-index: 1;
 }
 
-ul.topNavClass > li a {
+.topNavBtn {    /*css for topNav menu buttons*/
     display: inline-block;
     color: #3f3f3f;
     text-align: center;
@@ -114,9 +106,11 @@ ul.topNavClass > li a {
     position: relative;
     text-decoration: none;
     font-size: 17px;
+    height: 55%;
+    z-index: 2;
 }
 
-ul.topNavClass > li a::after {
+/*ul.topNavClass li a::after {
     display:block;
     content: attr(id);
     font-weight:bold;
@@ -124,71 +118,47 @@ ul.topNavClass > li a::after {
     color:transparent;
     overflow:hidden;
     visibility:hidden;
-}
+}*/
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topNavClass li.icon {
     display: none;
 }
 
-.topNavLi {
-   position: relative;
-   display: inline-block; 
-}
-
-.dropdown   {
-    display: none;
-    position: absolute;
-    background-color: #555;
-    z-index: -1;
-}
-
-.dropdown a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {
-    background-color: #f1f1f1
-}
-
-.dropdown:hover {
-    /*display: block;*/
-}
-
 /*=================== TOP NAVIGATION DROPDOWN ===================*/
-
-.topNavbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
 .topNavLi {
     position: relative;
     display: inline-block;
+    max-width: 153.59px
 }
 
 .dropdown {
+    list-style-position: inside;
+    position: absolute;
     display: none;
     background-color: #eee;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 100%;
+    z-index: -1;
 }
 
-.dropdown a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.dropdown a    {    /*css for dropdown links*/
     display: block;
+    color: #3f3f3f;
+    padding: 12px 16px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dropdown a:first-of-type   {
+    padding-top: 14px;
 }
 
 .dropdown a:hover {
-    background-color: #f1f1f1
+    background-color: #ddd
 }
 
 .topNavLi:hover .dropdown {
@@ -320,4 +290,13 @@ input[type=text] {
 }
 #contact-info {
     transition: 0.3s;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #eee;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
 }
