@@ -59,32 +59,32 @@ ul li {
 
 .one:hover ~ hr {
 /*  margin-left: 0%;*/
-transform: translate(0%);
+  transform: translate(0%);
 }
 
 .two:hover ~ hr {
-/*  margin-left: 17%;*/
-transform: translate(103%);
+/*  margin-left: 16.48%;*/
+  transform: translate(103%);
 }
 
 .three:hover ~ hr {
-/*  margin-left: 33%;*/
-transform: translate(205%);
+/*  margin-left: 32.8%;*/
+  transform: translate(205%);
 }
 
 .four:hover ~ hr {
-/*  margin-left: 50%;*/
-transform: translate(308%);
+/*  margin-left: 49.28%;*/
+  transform: translate(308%);
 }
 
 .five:hover ~ hr {
-/*  margin-left: 67%;*/
-transform: translate(410%);
+/*  margin-left: 65.6%;*/
+  transform: translate(410%);
 }
 
 .six:hover ~ hr {
-/*  margin-left: 83%;*/
-transform: translate(513%);
+/*  margin-left: 82.08%;*/
+  transform: translate(513%);
 }
 
 #headerHr   {
@@ -94,8 +94,8 @@ transform: translate(513%);
     background: #ff320d;
     border: none;
     transition: .15s ease-in-out;
-    /*transform: translate(103%);*/
-    /*margin-left: 0%; unfocussed and starting distance between hr and left edge of constraint - refer to html document to set this*/
+    /*transform: translate(0%);*/
+    margin-left: 0%; /*unfocussed and starting distance between hr and left edge of constraint - refer to html document to set this*/
     z-index: 1;
 }
 
@@ -119,100 +119,95 @@ transform: translate(513%);
     color:transparent;
     overflow:hidden;
     visibility:hidden;
-}*/
+    }*/
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topNavClass li.icon {
-    display: none;
-}
+    /*=================== TOP NAVIGATION DROPDOWN ===================*/
 
-/*=================== TOP NAVIGATION DROPDOWN ===================*/
+    .topNavLi {
+        position: relative;
+        display: inline-block;
+        max-width: 153.59px
+    }
 
-.topNavLi {
-    position: relative;
-    display: inline-block;
-    max-width: 153.59px
-}
+    .dropdown {
+        list-style-position: inside;
+        position: absolute;
+        display: none;
+        background-color: #eee;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 100%;
+        z-index: -1;
+    }
 
-.dropdown {
-    list-style-position: inside;
-    position: absolute;
-    display: none;
-    background-color: #eee;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    width: 100%;
-    z-index: -1;
-}
+    .dropdown a    {    /*css for dropdown links*/
+        display: block;
+        color: #3f3f3f;
+        padding: 12px 16px;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        font-size: 17px;
+    }
 
-.dropdown a    {    /*css for dropdown links*/
-    display: block;
-    color: #3f3f3f;
-    padding: 12px 16px;
-    text-align: center;
-    position: relative;
-    text-decoration: none;
-    font-size: 17px;
-}
+    .dropdown a:first-of-type   {
+        padding-top: 14px;
+    }
 
-.dropdown a:first-of-type   {
-    padding-top: 14px;
-}
+    .dropdown a:hover {
+        background-color: #ddd
+    }
 
-.dropdown a:hover {
-    background-color: #ddd
-}
+    .topNavLi:hover .dropdown {
+        display: block;
+    }
 
-.topNavLi:hover .dropdown {
-    display: block;
-}
+    .topNavLi:hover .topNavbtn {
+        background-color: #3e8e41;
+    }
 
-.topNavLi:hover .topNavbtn {
-    background-color: #3e8e41;
-}
+    /*=================== SIDE NAVIGATION ===================*/
 
-/*=================== SIDE NAVIGATION ===================*/
+    .toggleSideNav    {
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        width: auto;
+        height: auto;
+        margin: 0 0 0 116px;
+        padding: 250% 10px 300% 10px;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        transition: 0.6s cubic-bezier(0.42, 0, 0.87, 1.68);
+        left: 0;
+        text-shadow: 1px 1px 5px #555555;
+        z-index: 2;
+    }
 
-.toggleSideNav    {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    width: auto;
-    height: auto;
-    margin: 0 0 0 116px;
-    padding: 250% 10px 300% 10px;
-    background-color: transparent;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    transition: 0.6s cubic-bezier(0.42, 0, 0.87, 1.68);
-    left: 0;
-    text-shadow: 1px 1px 5px #555555;
-    z-index: 2;
-}
-
-#toggleSideNavId    {
-    transition: 0.6s;
-}
+    #toggleSideNavId    {
+        transition: 0.6s;
+    }
 
 /*.toggleSideNav:hover  {
     background color: #222;
-}*/
+    }*/
 
-.sideNavClass    {
-    height: 100%;
-    width: 146px;
-    position: fixed;
-    margin-left: 0px;
-    z-index: 1;
-    top: 60px;
-    /*bottom: 60px;*/
-    left: 0;
-    background-color: #333;
-    overflow-x: hidden;
-    padding-top: 0;
-    transition: 0.5s;
-    z-index: 1;
-}
+    .sideNavClass    {
+        height: 100%;
+        width: 146px;
+        position: fixed;
+        margin-left: 0px;
+        z-index: 1;
+        top: 60px;
+        /*bottom: 60px;*/
+        left: 0;
+        background-color: #333;
+        overflow-x: hidden;
+        padding-top: 0;
+        transition: 0.5s;
+        z-index: 1;
+    }
 
 /* 
 input[type=text] {
@@ -303,28 +298,119 @@ footer {
     width: 100%;
     background-color: #eee;
     text-align: left;
+    position: fixed;    /*temp*/
+    bottom: 0;  /*temp*/
 }
 
 #footerHr   {
-    width: 80%;
+    width: 1024px;
 }
 
 .footerList1    {
     font-size: 15px;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
+    text-align: center;
+    padding: 0;
 }
 
-.footerList1 a    {
+.footerList1 a  {
     color: #555;
     padding: 0 2% 0 2%;
-    margin: 0 auto 5px auto;
+    margin: 0 auto;
     text-align: center;
     display: inline-block;
     position: relative;
     text-decoration: none;
 }
 
+li.follow    {
+    color:#888;
+    padding: 0 2% 0 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .footerList1 a:hover   {
     text-decoration: underline;
+}
+
+.break  {
+    display: none;
+}
+
+.short  {
+    display: none;
+}
+
+/*=================== MEDIA QUERIES ===================*/
+
+@media all and (max-width: 1350px) {
+    .footerList1    {
+        margin-bottom: 10px
+    }
+}
+
+@media all and (max-width: 1150px) {
+    #footerHr   {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 1120px) {
+    ul.topNavClass {
+        width: 60%;        
+    }
+}
+
+@media all and (max-width: 925px) {
+    footer{
+        padding-bottom: 20px;
+    }
+    #footerHr   {
+        width: 70%;
+    }
+    .antiBreak  {
+        display: none;
+    }
+    .break  {
+        display: block;
+    }
+    ul.topNavClass {
+        width: 70%;        
+    }
+    .topNavbtn{
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    ul.topNavClass {
+        width: 80%;        
+    }
+    .topNavbtn{
+        font-size: 10px;
+    }
+    .full {
+        /*display:none;*/
+        width: 90%;
+    }
+    /*.short  {
+        display: inline-block;
+        width: 90%;
+    }*/
+}
+
+@media all and (max-width: 480px) {
+    footer{
+        padding-bottom: 40px;
+    }
+    .full {
+        display:none;
+    }
+    .short  {
+        display: inline-block;
+        width: 90%;
+    }
+}
 }

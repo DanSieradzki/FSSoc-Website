@@ -1,7 +1,4 @@
 var toggleState = true;
-var underlined = false;
-
-underlineHover();
 
 function toggleNav() {
 	if (toggleState == true) {
