@@ -16,25 +16,6 @@ function toggleNav() {
 	toggleState = !toggleState;
 }
 
-//function underlineHover(ele) {
-//	var ID =  ele.id.toLowerCase();
-//	if (underlined == true) {
-//		document.getElementById(ID + "Underline").style.marginBottom = "5px";
-//	} else {
-//		document.getElementById(ID + "Underline").style.marginBottom = "0px";
-//	}
-//	underlined = !underlined;	
-
-$( ".topNavBtn" )
-  .mouseover(underline1(void) {
-    document.getElementById("homeUnderline").style.marginBottom = "5px";
-    console.log("1");
-  })
-  .mouseout(underline2() {
-    document.getElementById("homeUnderline").style.marginBottom = "0px";
-    console.log("0");
-  });
-
 //for (var i = 0; i < 4; i++)	{
 	//var accordion = document.getElementsByClassName("accordion");
 	//accordion[i].onclick = function() {

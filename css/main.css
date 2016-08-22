@@ -27,6 +27,7 @@ header {
     width: 100%;
     background-color: #eee;
     text-align: left;
+    position: fixed;
 }
 
 #logo {
@@ -86,14 +87,14 @@ transform: translate(410%);
 transform: translate(513%);
 }
 
-hr {
+#headerHr   {
     height: .25rem;
     width: 16%; 
     margin: 0;
     background: #ff320d;
     border: none;
     transition: .15s ease-in-out;
-    /*transform:translate(0%);*/
+    /*transform: translate(103%);*/
     /*margin-left: 0%; unfocussed and starting distance between hr and left edge of constraint - refer to html document to set this*/
     z-index: 1;
 }
@@ -186,15 +187,16 @@ ul.topNavClass li.icon {
     transition: 0.6s cubic-bezier(0.42, 0, 0.87, 1.68);
     left: 0;
     text-shadow: 1px 1px 5px #555555;
+    z-index: 2;
 }
 
 #toggleSideNavId    {
     transition: 0.6s;
 }
 
-.toggleSideNav:hover  {
-    background color: #222222;
-}
+/*.toggleSideNav:hover  {
+    background color: #222;
+}*/
 
 .sideNavClass    {
     height: 100%;
@@ -202,12 +204,14 @@ ul.topNavClass li.icon {
     position: fixed;
     margin-left: 0px;
     z-index: 1;
-    top: 101px;
+    top: 60px;
+    /*bottom: 60px;*/
     left: 0;
     background-color: #333;
     overflow-x: hidden;
     padding-top: 0;
     transition: 0.5s;
+    z-index: 1;
 }
 
 /* 
@@ -292,11 +296,37 @@ input[type=text] {
     transition: 0.3s;
 }
 
+/*=================== FOOTER ===================*/
+
 footer {
     height: 60px;
     width: 100%;
     background-color: #eee;
     text-align: left;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+}
+
+#footerHr   {
+    width: 80%;
+}
+
+.footerList1    {
+    font-size: 15px;
+    padding: 0 auto;
+    margin: 0 500px;
+}
+
+.footerList1 a    {
+    color: #555;
+    padding: 0 2% 0 2%;
+    margin: 0 auto 5px auto;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.footerList1 a:hover   {
+    text-decoration: underline;
 }
