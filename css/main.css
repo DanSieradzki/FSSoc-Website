@@ -27,7 +27,7 @@ header {
     width: 100%;
     background-color: #eee;
     text-align: left;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 #logo {
@@ -303,8 +303,6 @@ footer {
     width: 100%;
     background-color: #eee;
     text-align: left;
-    position: fixed;
-    bottom: 0;
 }
 
 #footerHr   {
@@ -313,8 +311,8 @@ footer {
 
 .footerList1    {
     font-size: 15px;
-    padding: 0 auto;
-    margin: 0 500px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .footerList1 a    {
