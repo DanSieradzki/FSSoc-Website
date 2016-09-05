@@ -2,7 +2,6 @@ body	{
 	margin: 0;
 	padding: 0;
 	height: 100%;
-    /*background-image: url("../img/image1.JPG"); */
 }
 
 p	{
@@ -25,9 +24,8 @@ p	{
 header {
     height: 60px;
     width: 100%;
-    background-color: #eee;
+    background-color: #151718;
     text-align: left;
-    /*position: fixed;*/
 }
 
 #logo {
@@ -45,7 +43,7 @@ ul.topNavClass {
     padding: 0;
     background-color: transparent;
     text-align: none;
-    width: 50%; /*width across which topNav spans*/
+    width: 48%; /*width across which topNav spans*/
     margin: auto; /*equal margin on either side of topNav*/
     height: 100%; /*100% of header height*/
 }
@@ -57,57 +55,58 @@ ul li {
     width: 16%; /*width of list element with respect to ul*/
 }
 
-.one:hover ~ hr {
-/*  margin-left: 0%;*/
-  transform: translate(0%);
-}
-
-.two:hover ~ hr {
-/*  margin-left: 16.48%;*/
-  transform: translate(103%);
-}
-
-.three:hover ~ hr {
-/*  margin-left: 32.8%;*/
-  transform: translate(205%);
-}
-
-.four:hover ~ hr {
-/*  margin-left: 49.28%;*/
-  transform: translate(308%);
-}
-
-.five:hover ~ hr {
-/*  margin-left: 65.6%;*/
-  transform: translate(410%);
-}
-
-.six:hover ~ hr {
-/*  margin-left: 82.08%;*/
-  transform: translate(513%);
-}
-
 #headerHr   {
     height: .25rem;
     width: 16%; 
     margin: 0;
-    background: #ff320d;
+    background: rgb(255, 229, 0);    /*#af2208   #d62c0d    #665e99    102, 0, 153*/
     border: none;
     transition: .15s ease-in-out;
-    /*transform: translate(0%);*/
+    transform: translate(0%);
     margin-left: 0%; /*unfocussed and starting distance between hr and left edge of constraint - refer to html document to set this*/
     z-index: 1;
+    margin-top: -.25rem;
+}
+
+.one:hover ~ hr {
+  margin-left: 0%;
+  /*transform: translate(0%);*/
+}
+
+.two:hover ~ hr {
+  margin-left: 16%;
+  /*transform: translate(103%);*/
+}
+
+.three:hover ~ hr {
+  margin-left: 32%;
+ /* transform: translate(206%);*/
+}
+
+.four:hover ~ hr {
+  margin-left: 48%;
+  /*transform: translate(309.5%);*/
+}
+
+.five:hover ~ hr {
+  margin-left: 64%;
+  /*transform: translate(410%);*/
+}
+
+.six:hover ~ hr {
+  margin-left: 80%;
+  /*transform: translate(515%);*/
 }
 
 .topNavBtn {    /*css for topNav menu buttons*/
     display: inline-block;
-    color: #3f3f3f;
+    color: #eee;
     text-align: center;
     padding: 10% 20px;  /*Needs to be addressed in media queries*/
     position: relative;
     text-decoration: none;
     font-size: 17px;
-    height: 55%;
+    height: 52%;
     z-index: 2;
 }
 
@@ -121,27 +120,34 @@ ul li {
     visibility:hidden;
     }*/
 
+.mobNav {
+    display: none;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: #000;
+}
+
     /*=================== TOP NAVIGATION DROPDOWN ===================*/
 
     .topNavLi {
         position: relative;
         display: inline-block;
-        max-width: 153.59px
+        margin: 0;
     }
 
     .dropdown {
         list-style-position: inside;
         position: absolute;
         display: none;
-        background-color: #eee;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        background-color: #1b1e1f;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
         width: 100%;
-        z-index: -1;
     }
 
     .dropdown a    {    /*css for dropdown links*/
         display: block;
-        color: #3f3f3f;
+        color: #eee;
         padding: 12px 16px;
         text-align: center;
         position: relative;
@@ -154,7 +160,7 @@ ul li {
     }
 
     .dropdown a:hover {
-        background-color: #ddd
+        background-color: #333
     }
 
     .topNavLi:hover .dropdown {
@@ -291,6 +297,44 @@ input[type=text] {
     transition: 0.3s;
 }
 
+/*=================== PAGE CONTENT ===================*/
+
+.container  {
+    text-align: center;
+    width: 100%;
+}
+
+.wallpaper  {
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+
+#wallpaper  {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.pageContent    {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#wallpaperBar   {
+    width: 100%;
+    height: 60px;
+    background-color: #151718;
+    text-align: left;
+    float: left;
+}
+
+#wallpaperBar h1  {
+    color: #eee;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 0;
+}
+
 /*=================== FOOTER ===================*/
 
 footer {
@@ -298,8 +342,7 @@ footer {
     width: 100%;
     background-color: #eee;
     text-align: left;
-    position: fixed;    /*temp*/
-    bottom: 0;  /*temp*/
+
 }
 
 #footerHr   {
@@ -399,6 +442,15 @@ li.follow    {
         display: inline-block;
         width: 90%;
     }*/
+}
+
+@media all and (max-width: 700px) {
+    .topNavClass    {
+        display: none;
+    }
+    .mobNav {
+        display: inline-block;
+    }
 }
 
 @media all and (max-width: 480px) {
