@@ -13,6 +13,39 @@ function toggleNav() {
 	toggleState = !toggleState;
 }
 
+function hbopenNav() {
+    document.getElementById("myhbSidenav").style.width = "80%";
+}
+
+function hbcloseNav() {
+    document.getElementById("myhbSidenav").style.width = "0";
+}
+
+var accordion = document.getElementsByClassName("accordion");
+accordion[0].onclick = function() {
+	document.getElementById("hbHome").classList.toggle("show");
+}
+var accordion = document.getElementsByClassName("accordion");
+accordion[1].onclick = function() {
+	document.getElementById("hbProjects").classList.toggle("show");
+}
+var accordion = document.getElementsByClassName("accordion");
+accordion[2].onclick = function() {
+	document.getElementById("hbCalendar").classList.toggle("show");
+}
+var accordion = document.getElementsByClassName("accordion");
+accordion[3].onclick= function() {
+	document.getElementById("hbTutorials").classList.toggle("show");
+}
+var accordion = document.getElementsByClassName("accordion");
+accordion[4].onclick = function() {
+	document.getElementById("hbIntranet").classList.toggle("show");
+}
+var accordion = document.getElementsByClassName("accordion");
+accordion[5].onclick = function() {
+	document.getElementById("hbContact").classList.toggle("show");
+}
+
 //for (var i = 0; i < 4; i++)	{
 	//var accordion = document.getElementsByClassName("accordion");
 	//accordion[i].onclick = function() {
@@ -22,27 +55,27 @@ function toggleNav() {
 //}
 
 var accordion = document.getElementsByClassName("accordion");
-accordion[0].onclick = function() {
+accordion[6].onclick = function() {
 	document.getElementById("1516").classList.toggle("show");
-	console.log("1");
+	
 }
-accordion[1].onclick = function() {
+accordion[7].onclick = function() {
 	document.getElementById("1415").classList.toggle("show");
-	console.log("2");
+	
 }
-accordion[2].onclick = function() {
+accordion[8].onclick = function() {
 	document.getElementById("1314").classList.toggle("show");
-	console.log("3");
+	
 }
-accordion[3].onclick = function() {
+accordion[9].onclick = function() {
 	document.getElementById("1213").classList.toggle("show");
 	//document.getElementById("mySidenav").style.width = "350px";
-	console.log("4");
+	
 }
-accordion[4].onclick = function() {
+accordion[10].onclick = function() {
 	document.getElementById("1112").classList.toggle("show");
 	//document.getElementById("mySidenav").style.width = "350px";
-	console.log("5");
+	
 }
 
 //edit this to a for loop to go through all accordions

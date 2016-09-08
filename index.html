@@ -8,6 +8,7 @@
 
     <title>FSSoc Projects</title>
 
+    <link rel="shortcut-icon" type="img/logo.png" href="favicon.ico" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="img/logo.png" type='img/logo.png'>
     <link rel="stylesheet" href="css/normalize.css">
@@ -33,128 +34,152 @@
                             <a href="#">Gallery</a>
                             <a href="#">News</a>
                         </div>
-                    </li><li class="topNavLi two">
-                        <a href="#" id="Projects" class="topNavBtn">Projects</a>
-                        <div class="dropdown">
-                            <a href="#">It Flies</a>
-                            <a href="#">Pheonix</a>
-                            <a href="#">3rd Year Projects</a>
-                            <a href="#">4th Year Projects</a>
-                        </div>
-                    </li><li class="topNavLi three">
-                        <a href="#" id="Calendar" class="topNavBtn">Calendar</a>
-                        <div class="dropdown">
-                            <a href="#">Events</a>
-                            <a href="#">Simulation room bookings</a>
-                        </div>
-                    </li><li class="topNavLi four">
-                        <a href="#" id="Tutorials" class="topNavBtn">Tutorials</a>
-                        <div class="dropdown">
-                            <a href="#">Excalibur</a>
-                            <a href="#">Flight model</a>
-                            <a href="#">CAD</a>
-                        </div>
-                    </li><li class="topNavLi five">
-                        <a href="#" id="Intranet" class="topNavBtn">Intranet</a>
-                    </li><li class="topNavLi six">
-                        <a href="#" id="Contact" class="topNavBtn">Contact</a>
-                        <div class="dropdown">
-                            <a href="#">Team</a>
-                            <a href="#">Sponsors</a>
-                            <a href="#">Send us a message</a>
-                        </div>
-                    </li>
-                    <hr id="headerHr">
-                </ul>
-                <button class="mobNav" type="button">
-                  <span class="mobNavBox">
-                    <span class="mobNavInner"></span>
-                </span>
-            </button>
-        </header>
+                    </li><!-- 
+                --><li class="topNavLi two">
+                <a href="#" id="Projects" class="topNavBtn">Projects</a>
+                <div class="dropdown">
+                    <a href="#">It Flies</a>
+                    <a href="#">Pheonix</a>
+                    <a href="#">3rd Year Projects</a>
+                    <a href="#">4th Year Projects</a>
+                </div>
+                    </li><!-- 
+                --><li class="topNavLi three">
+                <a href="#" id="Calendar" class="topNavBtn">Calendar</a>
+                <div class="dropdown">
+                    <a href="#">Events</a>
+                    <a href="#">Simulation room bookings</a>
+                </div>
+                    </li><!-- 
+                --><li class="topNavLi four">
+                <a href="#" id="Tutorials" class="topNavBtn">Tutorials</a>
+                <div class="dropdown">
+                    <a href="#">Excalibur</a>
+                    <a href="#">Flight model</a>
+                    <a href="#">CAD</a>
+                </div>
+                    </li><!-- 
+                --><li class="topNavLi five">
+                <a href="#" id="Intranet" class="topNavBtn">Intranet</a>
+                    </li><!-- 
+                --><li class="topNavLi six">
+                <a href="#" id="Contact" class="topNavBtn">Contact</a>
+                <div class="dropdown">
+                    <a href="#">Team</a>
+                    <a href="#">Sponsors</a>
+                    <a href="#">Send us a message</a>
+                </div>
+            </li>
+            <hr id="headerHr">
+        </ul>
+        <span id="hamburger" style="" onclick="hbopenNav()">&#9776;</span>
+</header>
 
-        <!-- <div id="sideNavId" class="sideNavClass"> -->       
-        <!--  <input type="text" class="searchBarClass" name="searchBar"  placeholder="Search..."> -->
-
-        <!-- search pushes down accordions and displays relevant projects based on search results which can include: project title, member names, etc. Aletrnatively, have options to sort by year, name, etc.-->
-
-      <!-- <div>
-        <div>
-            <a href="#" class="accordion">2015-2016</a>
-            <div class="panel" id="1516">           
-                <div class="pplink" id="deltaStream">
-                    <a href='projects/deltaStream.html'>Delta Stream</a>
+<div id="myhbSidenav" class="hbsidenav">
+    <a href="javascript:void(0)" class="hbclosebtn" onclick="hbcloseNav()">&#9776;</a>
+    <span href="javascript:void(0)" class="hbTapSide" onclick="hbcloseNav()"></span>
+    <a href="#" class="accordion">Home</a>
+            <div class="panel" id="hbHome">           
+                <div class="pplink">
+                    <a href="#">Gallery</a>
                 </div>
-                <div class="pplink" id="genesis">
-                    <a href='projects/genesis.html'>Genesis</a>
-                </div>
-                <div class="pplink" id="stingray">
-                    <a href='projects/stingray.html'>Stingray</a>
-                </div>
-                <div class="pplink" id="diamante">
-                    <a href='projects/diamante.html'>Diamante</a>
+                <div class="pplink">
+                    <a href="#">News</a>
                 </div>
             </div>
-            <a href="#" class="accordion">2014-2015</a>
-            <div class="panel" id="1415">
-                <div class="pplink" id="swift">
-                    <a href='projects/swift.html'>Swift</a>
+            <a href="#" class="accordion">Projects</a>
+            <div class="panel" id="hbProjects">
+                <div class="pplink">
+                    <a href="#">It Flies</a>
+                </div>
+                <div class="pplink">
+                    <a href="#">Pheonix</a>
+                </div>
+                <div class="pplink">
+                    <a href="#">3rd Year Projects</a>
+                </div>
+                <div class="pplink">
+                    <a href="#">4th Year Projects</a> 
                 </div>
             </div>
-            <a href="#" class="accordion">2013-2014</a>
-            <div class="panel" id="1314">
-                <div class="pplink" id="tempest">
-                    <a href='projects/tempest.html'>Tempest</a>
+            <a href="#" class="accordion">Calendar</a>
+            <div class="panel" id="hbCalendar">
+                <div class="pplink">
+                    <a href="#">Events</a>
                 </div>
-                <div class="pplink" id="zenith">
-                    <a href='projects/zenith.html'>Zenith</a>
-                </div>
-            </div>
-            <a href="#" class="accordion">2012-2013</a>
-            <div class="panel" id="1213">
-                <div class="pplink" id="vista">
-                    <a href='projects/vista.html'>Vista</a>
-                </div>
-                <div class="pplink" id="aura">
-                    <a href='projects/aura.html'>Aura</a>
+                <div class="pplink">
+                    <a href="#">Simulation room bookings</a>
                 </div>
             </div>
-            <a href="#" class="accordion">2011-2012</a>
-            <div class="panel" id="1112">
+            <a href="#" class="accordion">Tutorials</a>
+            <div class="panel" id="hbTutorials">
+                <div class="pplink">
+                    <a href="#">Excalibur</a>
+                </div>
+                <div class="pplink">
+                    <a href="#">Flight model</a>
+                </div>
+                <div class="pplink">
+                    <a href="#">CAD</a>
+                </div>
+            </div>
+            <a href="#" class="accordion">Intranet</a>
+            <div class="panel" id="hbIntranet">
                 <div class="pplink" id="aurora">
                     <a href='projects/aurora.html'>Aurora</a>
                 </div>
+            </div>
+            <a href="#" class="accordion">Contact</a>
+            <div class="panel" id="hbContact">
+                <div class="pplink">
+                    <a href="#">Team</a>
+                </div>
+                <div class="pplink">
+                    <a href="#">Sponsors</a>
+                </div>
+                <div class="pplink">
+                    <a href="#">Send us a message</a>
+                </div>
             </div>        
-        </div>
-    </div>
-    <a id="toggleSideNavId" class="toggleSideNav" onclick="toggleNav()">&#10094;</a>                
-</div> -->
+        
+    </li>
+</ul>
+</div>
 
 <div class="container">
     <div class-"wallpaper">
         <img id="wallpaper" src="img/wallpaper1.jpg" alt="wallpaper">
-        <div id="wallpaperBar">
-            <h1>University of Manchester's Flight Simulation Society</h1>
+        <div class="wallpaperBar">
+            <h1>Welcome to the University of Manchester's Flight Simulation Society</h1>
+            <h2>Welcome to FSSoc</h2>
         </div>
     </div>
-    <div class="pageContent">
-        <h1>To do list:</h1><br>
-        <p>adapt menu bar to hamburger drop down for mobile</p><br>
-        <p>unfix header and footer</p><br>
-        <p>make header fixed for small mobile devices only</p><br>
-        <p>Add login button to far right</p><br>
-        <p>Add social media icon links</p><br>
+<div class="pageContent">
+
+            <!-- test -->
+
+        <div class="iconBar">
+              <div class="socialIcon zocial-facebook">f</div>
+              <div class="socialIcon zocial-twitter">T</div>
+              <div class="socialIcon zocial-instagram">\00DC</div>
+        </div>
+
+          <h1>To do list:</h1><br>
+          <p>make header fixed for small mobile devices only - *fix issue where this makes hamburger disappear*</p><br>
+          <p>Add login button to far right</p><br>
+          <p>Add social media icon links</p><br>
+          <p>Add ability to close hamburger menu by clicking elsewhere</p><br>
+
     </div>
 </div>
 
-
-<footer>
+  <footer>
     <ul class="footerList0">
-        <li>
+        <li>Home
         </li>
-        <li>
+        <li>About
         </li>
-        <li>
+        <li>Contact
         </li>
     </ul>
     <hr id="footerHr">
@@ -164,16 +189,28 @@
         <li class="antiBreak" style="color:#666;">|</li>
         <br class="break">
         <li>
-            <a href="#">Facebook</a>
+            <a class="tLink" href="https://www.facebook.com/UomFlightSim">Facebook</a>
+            <!-- <a class="iIcon" href="https://www.facebook.com/UomFlightSim">
+                <img src="img/fbIcon.png" alt="Fb icon">
+            </a> -->
         </li>
         <li>
-            <a href="#">Twitter</a>
+            <a class="tLink" href="https://twitter.com/UoMFlightSim/">Twitter</a>
+           <!--  <a class="iIcon" href="https://twitter.com/UoMFlightSim/">
+                <img src="img/tIcon.png" alt="Twitter icon">
+            </a> -->
         </li>
         <li>
-            <a href="#">YouTube</a>
+            <a class="tLink" href="#">YouTube</a>
+            <!-- <a class="iIcon" href="#">
+                <img src="img/yTIcon.png" alt="YouTube icon">
+            </a> -->
         </li>
         <li>
-            <a href="#">Instagram</a>
+            <a class="tLink" href="https://www.instagram.com/UOMFlightSim/">Instagram</a>
+            <!-- <a class="iIcon" href="https://www.instagram.com/UOMFlightSim/">
+                <img src="img/iIcon.png" alt="Instagram icon">
+            </a> -->
         </li>
     </ul>
 </footer>
