@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="img/logo.png" type='img/logo.png'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/boilerplate.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -35,112 +37,109 @@
                             <a href="#">News</a>
                         </div>
                     </li><!-- 
-                --><li class="topNavLi two">
-                <a href="#" id="Projects" class="topNavBtn">Projects</a>
-                <div class="dropdown">
-                    <a href="#">It Flies</a>
-                    <a href="#">Pheonix</a>
-                    <a href="#">3rd Year Projects</a>
-                    <a href="#">4th Year Projects</a>
-                </div>
+                 --><li class="topNavLi two">
+                        <a href="#" id="Projects" class="topNavBtn">Projects</a>
+                        <div class="dropdown">
+                            <a href="#">It Flies</a>
+                            <a href="#">Pheonix</a>
+                            <a href="#">3rd Year Projects</a>
+                            <a href="#">4th Year Projects</a>
+                        </div>
                     </li><!-- 
-                --><li class="topNavLi three">
-                <a href="#" id="Calendar" class="topNavBtn">Calendar</a>
-                <div class="dropdown">
-                    <a href="#">Events</a>
-                    <a href="#">Simulation room bookings</a>
-                </div>
+                 --><li class="topNavLi three">
+                        <a href="#" id="Calendar" class="topNavBtn">Calendar</a>
+                        <div class="dropdown">
+                            <a href="#">Events</a>
+                            <a href="#">Simulation room bookings</a>
+                        </div>
                     </li><!-- 
-                --><li class="topNavLi four">
-                <a href="#" id="Tutorials" class="topNavBtn">Tutorials</a>
-                <div class="dropdown">
-                    <a href="#">Excalibur</a>
-                    <a href="#">Flight model</a>
-                    <a href="#">CAD</a>
-                </div>
+                 --><li class="topNavLi four">
+                        <a href="#" id="Tutorials" class="topNavBtn">Tutorials</a>
+                        <div class="dropdown">
+                            <a href="#">Excalibur</a>
+                            <a href="#">Flight model</a>
+                            <a href="#">CAD</a>
+                        </div>
                     </li><!-- 
-                --><li class="topNavLi five">
-                <a href="#" id="Intranet" class="topNavBtn">Intranet</a>
+                 --><li class="topNavLi five">
+                        <a href="#" id="Intranet" class="topNavBtn">Intranet</a>
                     </li><!-- 
-                --><li class="topNavLi six">
-                <a href="#" id="Contact" class="topNavBtn">Contact</a>
-                <div class="dropdown">
-                    <a href="#">Team</a>
-                    <a href="#">Sponsors</a>
-                    <a href="#">Send us a message</a>
-                </div>
-            </li>
-            <hr id="headerHr">
-        </ul>
-        <span id="hamburger" style="" onclick="hbopenNav()">&#9776;</span>
-</header>
+                 --><li class="topNavLi six">
+                        <a href="#" id="Contact" class="topNavBtn">Contact</a>
+                        <div class="dropdown">
+                            <a href="#">Team</a>
+                            <a href="#">Sponsors</a>
+                            <a href="#">Send us a message</a>
+                        </div>
+                    </li>
+                    <hr id="headerHr">
+                </ul>
+                <span id="hamburger" onclick="hbToggleNav()">&#9776;</span>
+            </header>
 
-<div id="myhbSidenav" class="hbsidenav">
-    <a href="javascript:void(0)" class="hbclosebtn" onclick="hbcloseNav()">&#9776;</a>
-    <span href="javascript:void(0)" class="hbTapSide" onclick="hbcloseNav()"></span>
-    <a href="#" class="accordion">Home</a>
-            <div class="panel" id="hbHome">           
-                <div class="pplink">
-                    <a href="#">Gallery</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">News</a>
-                </div>
+    <div id="myhbSidenav" class="hbsidenav">
+        <a href="javascript:void(0)" class="hbclosebtn" onclick="hbToggleNav()">&#9776;</a>
+        <span href="javascript:void(0)" id="hbTapSide" onclick="hbToggleNav()"></span>
+        <a href="#" class="accordion">Home</a>
+        <div class="panel" id="hbHome">           
+            <div class="pplink">
+                <a href="#">Gallery</a>
             </div>
-            <a href="#" class="accordion">Projects</a>
-            <div class="panel" id="hbProjects">
-                <div class="pplink">
-                    <a href="#">It Flies</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">Pheonix</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">3rd Year Projects</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">4th Year Projects</a> 
-                </div>
+            <div class="pplink">
+                <a href="#">News</a>
             </div>
-            <a href="#" class="accordion">Calendar</a>
-            <div class="panel" id="hbCalendar">
-                <div class="pplink">
-                    <a href="#">Events</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">Simulation room bookings</a>
-                </div>
+        </div>
+        <a href="#" class="accordion">Projects</a>
+        <div class="panel" id="hbProjects">
+            <div class="pplink">
+                <a href="#">It Flies</a>
             </div>
-            <a href="#" class="accordion">Tutorials</a>
-            <div class="panel" id="hbTutorials">
-                <div class="pplink">
-                    <a href="#">Excalibur</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">Flight model</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">CAD</a>
-                </div>
+            <div class="pplink">
+                <a href="#">Pheonix</a>
             </div>
-            <a href="#" class="accordion">Intranet</a>
-            <div class="panel" id="hbIntranet">
-                <div class="pplink" id="aurora">
-                    <a href='projects/aurora.html'>Aurora</a>
-                </div>
+            <div class="pplink">
+                <a href="#">3rd Year Projects</a>
             </div>
-            <a href="#" class="accordion">Contact</a>
-            <div class="panel" id="hbContact">
-                <div class="pplink">
-                    <a href="#">Team</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">Sponsors</a>
-                </div>
-                <div class="pplink">
-                    <a href="#">Send us a message</a>
-                </div>
-            </div>        
+            <div class="pplink">
+                <a href="#">4th Year Projects</a> 
+            </div>
+        </div>
+        <a href="#" class="accordion">Calendar</a>
+        <div class="panel" id="hbCalendar">
+            <div class="pplink">
+                <a href="#">Events</a>
+            </div>
+            <div class="pplink">
+                <a href="#">Simulation room bookings</a>
+            </div>
+        </div>
+        <a href="#" class="accordion">Tutorials</a>
+        <div class="panel" id="hbTutorials">
+            <div class="pplink">
+                <a href="#">Excalibur</a>
+            </div>
+            <div class="pplink">
+                <a href="#">Flight model</a>
+            </div>
+            <div class="pplink">
+                <a href="#">CAD</a>
+            </div>
+        </div>
+        <a href="#" class="accordion">Intranet</a>
+        <div class="panel" id="hbIntranet">
+        </div>
+        <a href="#" class="accordion">Contact</a>
+        <div class="panel" id="hbContact">
+            <div class="pplink">
+                <a href="#">Team</a>
+            </div>
+            <div class="pplink">
+                <a href="#">Sponsors</a>
+            </div>
+            <div class="pplink">
+                <a href="#">Send us a message</a>
+            </div>
+        </div>        
         
     </li>
 </ul>
@@ -154,42 +153,107 @@
             <h2>Welcome to FSSoc</h2>
         </div>
     </div>
-<div class="pageContent">
+    <div class="pageContent">
 
-            <!-- test -->
+        <!-- test -->
 
         <div class="iconBar">
-              <div class="socialIcon zocial-facebook">f</div>
-              <div class="socialIcon zocial-twitter">T</div>
-              <div class="socialIcon zocial-instagram">\00DC</div>
-        </div>
+          <div class="socialIcon zocial-facebook">f</div>
+          <div class="socialIcon zocial-twitter">T</div>
+          <div class="socialIcon zocial-instagram">\00DC</div>
+      </div>
 
-          <h1>To do list:</h1><br>
-          <p>make header fixed for small mobile devices only - *fix issue where this makes hamburger disappear*</p><br>
-          <p>Add login button to far right</p><br>
-          <p>Add social media icon links</p><br>
-          <p>Add ability to close hamburger menu by clicking elsewhere</p><br>
+      <h1>To do list:</h1><br>
+      <p>Fix squashing text on hamburger menu - refer to old sideNav stuff</p><br>
+      <p>Add login button to far right</p><br>
+      <p>Add social media icon links</p><br>
+      <p>fix menu to top without hamburger disappearing for mobile</p><br>
 
-    </div>
+  </div>
 </div>
 
-  <footer>
-    <ul class="footerList0">
-        <li>Home
-        </li>
-        <li>About
-        </li>
-        <li>Contact
-        </li>
-    </ul>
-    <hr id="footerHr">
-    <ul class="footerList1">
-        <li class="follow full">Follow The University of Manchester's Flight Simulation Society</li>
-        <li class="follow short">Follow FSSoc</li>
-        <li class="antiBreak" style="color:#666;">|</li>
-        <br class="break">
-        <li>
-            <a class="tLink" href="https://www.facebook.com/UomFlightSim">Facebook</a>
+<footer>
+    <div class="footerMenu">
+        <div class="footerList">
+            <a class="footerListTitle" href="#">Home</a><br>
+            <ul class="footerList0">
+                <li>
+                    <a href="#">Gallery</a><br>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footerList">
+            <a class="footerListTitle" href="#">Projects</a><br>
+            <ul class="footerList0">
+                <li>
+                    <a href="#">It Flies</a><br>
+                </li>
+                <li>
+                    <a href="#">Pheonix</a><br>
+                </li>
+                <li>
+                    <a href="#">3rd Year Projects</a><br>
+                </li>
+                <li>
+                    <a href="#">4th Year Projects</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footerList">
+            <a class="footerListTitle" href="#">Calendar</a><br>
+            <ul class="footerList0">
+                <li>
+                    <a href="#">Events</a><br>
+                </li>
+                <li>
+                    <a href="#">Simulation room bookings</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footerList">
+            <a class="footerListTitle" href="#">Tutorials</a><br>
+            <ul class="footerList0">
+                <li>
+                    <a href="#">Excalibur</a><br>
+                </li>
+                <li>
+                    <a href="#">Flight model</a><br>
+                </li>
+                <li>
+                    <a href="#">CAD</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footerList">
+            <a class="footerListTitle" href="#">Intranet</a><br>
+        </div>
+        <div class="footerList">
+            <a class="footerListTitle" href="#">Contact</a><br>
+            <ul class="footerList0">
+                <li>
+                    <a href="#">Team</a><br>
+                </li>
+                <li>
+                    <a href="#">Sponsors</a><br>
+                </li>
+                <li>
+                    <a href="#">Send us a message</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</ul><br>
+<hr id="footerHr">
+<ul class="footerList1">
+    <li class="follow full">Follow The University of Manchester's Flight Simulation Society</li>
+    <li class="follow short">Follow FSSoc</li>
+    <li class="antiBreak" style="color:#666;">|</li>
+    <br class="break">
+    <li>
+        <a class="tLink" href="https://www.facebook.com/UomFlightSim">Facebook</a>
             <!-- <a class="iIcon" href="https://www.facebook.com/UomFlightSim">
                 <img src="img/fbIcon.png" alt="Fb icon">
             </a> -->
