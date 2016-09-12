@@ -18,11 +18,13 @@ var toggleState1 = true;
 
 function hbToggleNav() {
 	if (toggleState1 == true) {
-		document.getElementById("myhbSidenav").style.width = "80%";
+		document.getElementById("myhbSidenav").style.marginRight = "0";
 		document.getElementById("hbTapSide").style.display = "inline-block";
+		document.getElementById("hamburger").style.color = "#bb882e";
 	} else {
-		document.getElementById("myhbSidenav").style.width = "0px";
+		document.getElementById("myhbSidenav").style.marginRight = "-80%";
 		document.getElementById("hbTapSide").style.display = "none";
+		document.getElementById("hamburger").style.color = "#eee";
 	}
 	toggleState1 = !toggleState1;
 }
