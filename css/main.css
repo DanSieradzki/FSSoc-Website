@@ -27,6 +27,7 @@ header {
     background-color: #151718;
     text-align: left;
     z-index: 3;
+    position: relative;
 }
 
 #logo {
@@ -44,30 +45,20 @@ ul.topNavClass {
     padding: 0;
     background-color: transparent;
     text-align: none;
-    width: 48%; /*width across which topNav spans*/
-    margin: auto; /*equal margin on either side of topNav*/
+    width: 48%; 
+    margin: auto;
     padding: 0 auto;
-    height: 100%; /*100% of header height*/
+    height: 100%; 
 }
 
-ul li {
+.topNavLi {
     display: inline;
     text-align: center;
-    height: 100%; /*100% height of ul, which in turn is 100% height of header*/
-    width: 16%; /*width of list element with respect to ul*/
+    height: 100%; 
+    width: 16%; 
 }
 
-#headerHr   {
-    height: .35rem;
-    width: 16%; 
-    margin: 0;
-    background: #bb882e;  
-    border: none;
-    transition: 0s ease-in-out;
-    z-index: 1;
-    margin-top: -.30rem;
-    transform: translate(0%) perspective(100px) rotateX(45deg);
-}
+
 
 .one:hover ~ hr {
   transform: translate(0%) perspective(100px) rotateX(45deg) !important;
@@ -93,11 +84,23 @@ ul li {
  transform: translate(500%) perspective(100px) rotateX(45deg) !important;
 }
 
-.topNavBtn {    /*css for topNav menu buttons*/
+#headerHr   {
+    height: .35rem;
+    width: 16%; 
+    margin: 0;
+    background: #bb882e;  
+    border: none;
+    transition: 0s;
+    z-index: 1;
+    margin-top: -.30rem;
+    transform: translate(0%) perspective(100px) rotateX(45deg);
+}
+
+.topNavBtn {   
     display: inline-block;
     color: #eee;    
     text-align: center;
-    padding: 10% 20px;  /*Needs to be addressed in media queries*/
+    padding: 10% 20px; 
     position: relative;
     text-decoration: none;
     font-size: 17px;
@@ -109,22 +112,13 @@ ul li {
     color: #bb882e;
 }
 
-/*ul.topNavClass li a::after {
-    display:block;
-    content: attr(id);
-    font-weight:bold;
-    height:1px;
-    color:transparent;
-    overflow:hidden;
-    visibility:hidden;
-    }*/
-
     /*=================== TOP NAVIGATION DROPDOWN ===================*/
 
     .topNavLi {
         position: relative;
         display: inline-block;
         margin: 0;
+        z-index: 4;
     }
 
     .dropdown {
@@ -135,9 +129,10 @@ ul li {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
         width: 100%;
         z-index: 0;
+        top: 60px;
     }
 
-    .dropdown a    {    /*css for dropdown links*/
+    .dropdown a    {
         display: block;
         color: #eee;
         padding: 8px 5px;
@@ -187,10 +182,10 @@ ul li {
         z-index: 1;
         top: 0;
         right: 0;
-        background-color: rgba(21, 23, 24, 0.9);
-        box-shadow-left: 16px rgba(0,0,0,0.5);          /*not working - fix*/
+        background-color: rgba(21, 23, 24, 0.9);        
+        box-shadow:none;
         overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.5s ease-in-out;
         padding-top: 60px;
     }
 
@@ -209,7 +204,7 @@ ul li {
         color: #c7840c;
     }
 
-    .hbclosebtn  {      /*.hbsidenav - (in case anything fucks up without this)*/
+    .hbclosebtn  {    
         position: absolute;
         top: 0;     /*this is what's messing with the closebutton's visibility for some stupid reason*/
         right: 10px;
@@ -226,7 +221,7 @@ ul li {
         top: 0;
         left: 0;
         padding-top: 60px;
-        display: block;
+        display: none;
     }
 
     .hbclosebtn {
@@ -264,19 +259,33 @@ ul li {
         background-color: #ddd;
         transition: 0.2s;
         display: none;
+        /*height: 0;*/
+        opacity: 0;
     }
 
     .show {
-        display: block;
+        display: block;        
+        /*height: 15%;*/
+        opacity: 1;
     }
 
     .pplink {
         transition: 0.2s;
-
     }
 
     .pplink a   {
         color: #333;
+        transition: 0.2s;
+    }
+
+ /*=================== CONTAINER ===================*/
+
+     #container  {
+        text-align: center;
+        width: 100%;
+        background-color: #eee;
+        transition: 0.6s;
+        font-family: 'Libre Franklin', sans-serif;
     }
 
  /*=================== FOOTER ===================*/
@@ -342,6 +351,11 @@ ul li {
     text-align: center;
     padding: 0;
     vertical-align: text-bottom;
+    list-style: none;
+    display: inline;
+    text-align: center;
+    height: 100%; 
+    width: 16%; 
 }
 
 .footerList1 a  {
@@ -485,18 +499,20 @@ li.follow    {
     #wallpaper    {
         margin-top: 60px;
     }
-    
+    .footerList, .footerMenu {
+        display: none;
+    }
+    footer  {        
+        height: 0;
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    #footerHr   {
+        display: none;
+    }
 }
 
-@media all and (max-width: 480px) {
-    footer  {        
-        height: 80px
-    }
-    .footerList   {
-        width: 33.33%;
-        
-        text-align: center;
-    }
+@media all and (max-width: 480px) {   
     .full {
         display:none;
     }
@@ -504,17 +520,14 @@ li.follow    {
         display: inline-block;
         width: 90%;
     }
-    .mobBr    {
-        display: block;
-    }
     .hbsidenav a   {
         text-align: left;
         padding-left: 20px
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 325px) {
     footer  {        
-        height: 110px
+        padding-bottom: 100px;
     }
 }

@@ -1,11 +1,6 @@
 /*=================== PAGE CONTENT ===================*/
 
-    .container  {
-        text-align: center;
-        width: 100%;
-        background-color: #eee;
-
-    }
+   
 
     .wallpaper  {
         width: 100%;
@@ -20,14 +15,14 @@
     }
 
     .pageContent    {
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
     }
 
     .wallpaperBar   {
         width: 100%;
         height: 60px;
-        background-color: #151718;
+        background-color: #232c31;
         text-align: left;
         float: left;
         font-family: 'Libre Franklin', sans-serif;
@@ -104,6 +99,37 @@
      rgb(238, 238, 238) 20px 20px;
  }
 
+ #first {
+  width: 100%;
+  height: 230px;
+  padding-top: 70px;
+
+  background-color: #fff;
+  color: #333;
+  text-align: left;
+ }
+
+ .divContent  {
+  width: 55%;
+  margin: 10px auto;
+ }
+
+ #crest {
+  float: left;
+  width: 90px;
+  height: 150px;
+  margin: 0 30px 20px 20px;
+ }
+
+ #first h1 {
+  font-size: 30px;  
+  padding-left: 155px;
+ }
+
+ #first p {
+  font-size: 16px;
+ }
+
 /*=================== MEDIA QUERIES ===================*/
 
 @media all and (max-width: 850px) {
@@ -126,3 +152,4 @@
         font-size: 20px
     }
 }
+
