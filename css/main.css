@@ -1,3 +1,16 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
 body	{
 	margin: 0;
 	padding: 0;
@@ -284,7 +297,7 @@ ul.topNavClass {
         text-align: center;
         width: 100%;
         background-color: #eee;
-        transition: 0.6s;
+        transition: 0.6s ease-in-out;
         font-family: 'Libre Franklin', sans-serif;
     }
 

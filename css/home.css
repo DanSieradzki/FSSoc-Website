@@ -101,9 +101,8 @@
 
  #first {
   width: 100%;
-  height: 230px;
+  height: 25%;
   padding-top: 70px;
-
   background-color: #fff;
   color: #333;
   text-align: left;
@@ -118,7 +117,7 @@
   float: left;
   width: 90px;
   height: 150px;
-  margin: 0 30px 20px 20px;
+  margin: -10px 30px 20px 20px;
  }
 
  #first h1 {
@@ -128,9 +127,18 @@
 
  #first p {
   font-size: 16px;
+  margin-bottom: 5%
  }
 
 /*=================== MEDIA QUERIES ===================*/
+
+@media all and (max-width: 1175px) {
+    .divContent {     
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 90%;
+    }
+}
 
 @media all and (max-width: 850px) {
     .wallpaperBar h1    {
@@ -144,6 +152,20 @@
     }
     .wallpaperBar h2    {
         display: inline-block;
+    }
+    .divContent p {
+    width: 75%;
+    margin-left: 28%;
+    }
+}
+
+@media all and (max-width: 550px) {
+   .divContent p {
+      margin-left: 0px;
+      width: 100%;
+    }
+    .divContent h1 {
+      padding-left: 30%
     }
 }
 

@@ -4,15 +4,39 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"marginLeft"
+			],
+			[
+				"getElem",
+				"getElementById"
+			],
+			[
+				"getElementBy",
+				"getElementsByClassName"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"getImg",
+				"getImgList"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
 				"getElements",
 				"getElementsByClassName"
 			],
 			[
 				"ma",
-				"margin-left"
-			],
-			[
-				"margin",
 				"margin-left"
 			],
 			[
@@ -28,24 +52,12 @@
 				"projectScroll"
 			],
 			[
-				"padd",
-				"padding-bottom"
-			],
-			[
 				"pro",
 				"projectLi"
 			],
 			[
-				"get",
-				"getElementsByClassName"
-			],
-			[
 				"color",
 				"color"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"paddin",
@@ -159,15 +171,18 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/home.html",
 			"settings":
 			{
-				"buffer_size": 11968,
+				"buffer_size": 11961,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">        \n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <title>FSSoc Projects</title>\n\n    <link rel=\"shortcut-icon\" type=\"../img/logo.png\" href=\"favicon.ico\" />\n    <link rel=\"apple-touch-icon\" href=\"apple-touch-icon.png\">\n    <link rel=\"stylesheet\" href=\"../img/logo.png\" type='img/logo.png'>\n    <link rel=\"stylesheet\" href=\"../css/normalize.css\">    \n    <link rel=\"stylesheet\" href=\"../css/main.css\">  \n    <link rel=\"stylesheet\" href=\"../css/projects.css\">  \n    <link rel=\"stylesheet\" href=\"../css/boilerplate.css\">\n    <link href=\"https://fonts.googleapis.com/css?family=Libre+Franklin\" rel=\"stylesheet\">\n    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>\n\n    <script src=\"../js/vendor/modernizr-2.8.3.min.js\"></script>\n</head>\n<body>\n        <!--[if lt IE 8]>\n            <p class=\"browserupgrade\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\n            <![endif]-->\n\n            <header>\n                <a href=\"home.html\" id=\"logo\">\n                    <img src=\"../img/logo.png\" alt=\"Logo\">\n                </a>\n                <ul class=\"topNavClass\">\n                    <li class=\"topNavLi one\">\n                        <a href=\"home.html\" id=\"Home\" class=\"topNavBtn\">Home</a>\n                        <div class=\"dropdown\">\n                            <a href=\"#\">Gallery</a>\n                            <a href=\"#\">News</a>\n                        </div>\n                    </li><!-- \n                --><li class=\"topNavLi two\">\n                <a href=\"#\" id=\"Projects\" class=\"topNavBtn\">Projects</a>\n                <div class=\"dropdown\">\n                    <a href=\"#\">It Flies</a>\n                    <a href=\"#\">Pheonix</a>\n                    <a href=\"#\">3rd Year Projects</a>\n                    <a href=\"#\">4th Year Projects</a>\n                </div>\n                    </li><!-- \n                --><li class=\"topNavLi three\">\n                <a href=\"calendar.html\" id=\"Calendar\" class=\"topNavBtn\">Calendar</a>\n                <div class=\"dropdown\">\n                    <a href=\"#\">Events</a>\n                    <a href=\"#\">Simulation room bookings</a>\n                </div>\n                    </li><!-- \n                --><li class=\"topNavLi four\">\n                <a href=\"tutorials.html\" id=\"Tutorials\" class=\"topNavBtn\">Tutorials</a>\n                <div class=\"dropdown\">\n                    <a href=\"#\">Excalibur</a>\n                    <a href=\"#\">Flight model</a>\n                    <a href=\"#\">CAD</a>\n                </div>\n                    </li><!-- \n                --><li class=\"topNavLi five\">\n                <a href=\"http://www.fssoc.co.uk/intranet.php\" id=\"Intranet\" class=\"topNavBtn\">Intranet</a>\n                    </li><!-- \n                --><li class=\"topNavLi six\">\n                <a href=\"contact.html\" id=\"Contact\" class=\"topNavBtn\">Contact</a>\n                <div class=\"dropdown\">\n                    <a href=\"#\">Team</a>\n                    <a href=\"#\">Sponsors</a>\n                    <a href=\"#\">Send us a message</a>\n                </div>\n            </li>\n            <hr id=\"headerHr\" style=\"transform: translate(100%) perspective(100px) rotateX(45deg);\">\n        </ul>\n        <span id=\"hamburger\" onclick=\"hbToggleNav()\">&#9776;</span>\n    </header>\n\n    <div id=\"myhbSidenav\" class=\"hbsidenav\">\n        <a href=\"javascript:void(0)\" class=\"hbclosebtn\" onclick=\"hbToggleNav()\">&#9776;</a>\n        <span href=\"javascript:void(0)\" id=\"hbTapSide\" onclick=\"hbToggleNav()\"></span>\n        <a href=\"home.html\" class=\"accordion\">Home</a>\n        <div class=\"panel\" id=\"hbHome\">           \n            <div class=\"pplink\">\n                <a href=\"#\">Gallery</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">News</a>\n            </div>\n        </div>\n        <a href=\"#\" class=\"accordion\">Projects</a>\n        <div class=\"panel\" id=\"hbProjects\">\n            <div class=\"pplink\">\n                <a href=\"#\">It Flies</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">Pheonix</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">3rd Year Projects</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">4th Year Projects</a> \n            </div>\n        </div>\n        <a href=\"calendar.html\" class=\"accordion\">Calendar</a>\n        <div class=\"panel\" id=\"hbCalendar\">\n            <div class=\"pplink\">\n                <a href=\"#\">Events</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">Simulation room bookings</a>\n            </div>\n        </div>\n        <a href=\"tutorials.html\" class=\"accordion\">Tutorials</a>\n        <div class=\"panel\" id=\"hbTutorials\">\n            <div class=\"pplink\">\n                <a href=\"#\">Excalibur</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">Flight model</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">CAD</a>\n            </div>\n        </div>\n        <a href=\"http://www.fssoc.co.uk/intranet.php\" class=\"accordion\">Intranet</a>\n        <div class=\"panel\" id=\"hbIntranet\">\n        </div>\n        <a href=\"contact.html\" class=\"accordion\">Contact</a>\n        <div class=\"panel\" id=\"hbContact\">\n            <div class=\"pplink\">\n                <a href=\"#\">Team</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">Sponsors</a>\n            </div>\n            <div class=\"pplink\">\n                <a href=\"#\">Send us a message</a>\n            </div>\n        </div>        \n        \n    </li>\n</ul>\n</div>\n\n<div id=\"projectNav\">\n    <div class=\"projectScroll leftN\">\n        <a href=\"#\" class=\"\" onclick=\"\">&#10094;</a>    \n    </div>\n    <div class=\"enclosure\">\n        <ul id=\"projectUl\">\n            <li class=\"projectLi\">\n                <a href=\"#\">\n                    <img class=\"projectLiImg\" src=\"../img/projects/stingray.png\" alt=\"Stingray Img\">\n                    <h1 class=\"projectLiTitle\">Stingray</h1>\n                </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n                <a href=\"#\">\n                    <img class=\"projectLiImg\" src=\"../img/projects/genesis.png\" alt=\"Genesis Img\">\n                    <h1 class=\"projectLiTitle\">Genesis</h1>\n                </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n        <a href=\"#\">\n            <img class=\"projectLiImg\" src=\"../img/projects/deltaStream.jpg\" alt=\"Delta Stream Img\">\n            <h1 class=\"projectLiTitle\">Delta Stream</h1>\n        </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n        <a href=\"#\">\n            <img class=\"projectLiImg\" src=\"../img/projects/diamante.jpg\" alt=\"Diamante Img\">\n            <h1 class=\"projectLiTitle\">Diamante</h1>\n        </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n        <a href=\"#\">\n            <img class=\"projectLiImg\" src=\"../img/projects/tempest.png\" alt=\"Tempest Img\">\n            <h1 class=\"projectLiTitle\">Tempest</h1>\n        </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n        <a href=\"#\">\n            <img class=\"projectLiImg\" src=\"../img/projects/swift.png\" alt=\"Swift Img\">\n            <h1 class=\"projectLiTitle\">Swift</h1>\n        </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n        <a href=\"#\">\n            <img class=\"projectLiImg\" src=\"../img/projects/vista.png\" alt=\"Vista Img\">\n            <h1 class=\"projectLiTitle\">Vista</h1>\n        </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n                <a href=\"#\">\n                    <img class=\"projectLiImg\" src=\"../img/projects/zenith.png\" alt=\"Zenith Img\">\n                    <h1 class=\"projectLiTitle\">Zenith</h1>\n                </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n                <a href=\"#\">\n                    <img class=\"projectLiImg\" src=\"../img/projects/aurora.png\" alt=\"Aurora Img\">\n                    <h1 class=\"projectLiTitle\">Aurora</h1>\n                </a>    \n            </li><!--\n         --><li class=\"projectLi\">\n                <a href=\"#\">\n                    <img class=\"projectLiImg\" src=\"../img/projects/aura.png\" alt=\"Aura Img\">\n                    <h1 class=\"projectLiTitle\">Aura</h1>\n                </a>  \n            </li>  \n        </ul>\n    </div>\n    <div class=\"projectScroll rightN\">\n        <a href=\"#\" onclick=\"scrollRight()\">&#10095;</a>    \n    </div>\n    \n</div>\n<div id=\"toggleProjNav\">\n    <a id=\"toggleProjNavA\" class=\"zocial-chevron-up\" data-text=\"chevron-up\" href=\"#\" onclick=\"toggleProjectNav()\">/\\</a>\n    <a id=\"toggleProjNavB\" class=\"fontawesome-chevron-down\"href=\"#\" onclick=\"toggleProjectNav()\">\\/</a>\n</div>\n\n\n<div id=\"container\">\n     <div class-\"wallpaper\">        \n        <img id =\"wallpaper\"></img>\n     <div class=\"wallpaperBar\">\n        <h1>Flight Simulation Projects</h1>\n        <h2>FSSoc Projects</h2>\n    </div>\n</div>\n<div class=\"pageContent\">\n\n  <h1>To do list:</h1><br>\n  <p>Build the fucking page</p><br>\n  <p>Scrollbar stylisation</p><br>\n  <p>background color change transition projectNav arrows</p><br>\n  <p>scrollBy/scrollTo error</p><br>\n  <p>Hide ProjectNav menu bar</p><br>\n  <p>Display Nav image as page wallpaper</p><br>\n  <p>Find out how not to repeat some html on every page</p><br>\n  <p>fix footer list thing</p><br>\n  \n</div>\n</div>\n\n<footer>\n    <div class=\"footerMenu\">\n        <div class=\"footerList\">\n            <a class=\"footerListTitle\" href=\"#\">Home</a><br>\n            <ul class=\"footerList0\">\n                <li>\n                    <a href=\"#\">Gallery</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">News</a>\n                </li>\n            </ul>\n        </div>\n        <div class=\"footerList\">\n            <a class=\"footerListTitle\" href=\"#\">Projects</a><br>\n            <ul class=\"footerList0\">\n                <li>\n                    <a href=\"#\">It Flies</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">Pheonix</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">3rd Year Projects</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">4th Year Projects</a>\n                </li>\n            </ul>\n        </div>\n        <div class=\"footerList\">\n            <a class=\"footerListTitle\" href=\"#\">Calendar</a><br>\n            <ul class=\"footerList0\">\n                <li>\n                    <a href=\"#\">Events</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">Simulation room bookings</a>\n                </li>\n            </ul>\n        </div>\n        <div class=\"footerList\">\n            <a class=\"footerListTitle\" href=\"#\">Tutorials</a><br>\n            <ul class=\"footerList0\">\n                <li>\n                    <a href=\"#\">Excalibur</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">Flight model</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">CAD</a>\n                </li>\n            </ul>\n        </div>\n        <div class=\"footerList\">\n            <a class=\"footerListTitle\" href=\"#\">Intranet</a><br>\n        </div>\n        <div class=\"footerList\">\n            <a class=\"footerListTitle\" href=\"#\">Contact</a><br>\n            <ul class=\"footerList0\">\n                <li>\n                    <a href=\"#\">Team</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">Sponsors</a><br>\n                </li>\n                <li>\n                    <a href=\"#\">Send us a message</a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</ul><br>\n<hr id=\"footerHr\">\n<ul class=\"footerList1\">\n    <li class=\"follow full\">Follow The University of Manchester's Flight Simulation Society</li>\n    <li class=\"follow short\">Follow FSSoc</li>\n    <li class=\"antiBreak\" style=\"color:#666;\">|</li>\n    <br class=\"break\">\n    <li>\n        <a class=\"tLink\" href=\"https://www.facebook.com/UomFlightSim\">Facebook</a>\n            <!-- <a class=\"iIcon\" href=\"https://www.facebook.com/UomFlightSim\">\n                <img src=\"img/fbIcon.png\" alt=\"Fb icon\">\n            </a> -->\n        </li>\n        <li>\n            <a class=\"tLink\" href=\"https://twitter.com/UoMFlightSim/\">Twitter</a>\n           <!--  <a class=\"iIcon\" href=\"https://twitter.com/UoMFlightSim/\">\n                <img src=\"img/tIcon.png\" alt=\"Twitter icon\">\n            </a> -->\n        </li>\n        <li>\n            <a class=\"tLink\" href=\"#\">YouTube</a>\n            <!-- <a class=\"iIcon\" href=\"#\">\n                <img src=\"img/yTIcon.png\" alt=\"YouTube icon\">\n            </a> -->\n        </li>\n        <li>\n            <a class=\"tLink\" href=\"https://www.instagram.com/UOMFlightSim/\">Instagram</a>\n            <!-- <a class=\"iIcon\" href=\"https://www.instagram.com/UOMFlightSim/\">\n                <img src=\"img/iIcon.png\" alt=\"Instagram icon\">\n            </a> -->\n        </li>\n    </ul>\n</footer>\n\n\n\n<script src=\"https://code.jquery.com/jquery-1.12.0.min.js\"></script>\n<script>window.jQuery || document.write('<script src=\"../js/vendor/jquery-1.12.0.min.js\"><\\/script>')</script>\n<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>\n\n<script src=\"../js/plugins.js\"></script>\n<script src=\"../js/main.js\"></script>\n\n<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n<script>\n(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\n    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\ne=o.createElement(i);r=o.getElementsByTagName(i)[0];\ne.src='https://www.google-analytics.com/analytics.js';\nr.parentNode.insertBefore(e,r)}(window,document,'script','ga'));\nga('create','UA-XXXXX-X','auto');ga('send','pageview');\n</script>\n</body>\n</html>\n",
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/projects.html",
+			"file_size": 14554,
+			"file_write_time": 131188038290166854,
 			"settings":
 			{
-				"buffer_size": 14179,
+				"buffer_size": 14178,
 				"line_ending": "Windows"
 			}
 		},
@@ -175,7 +190,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/js/main.js",
 			"settings":
 			{
-				"buffer_size": 3459,
+				"buffer_size": 4080,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +198,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/main.css",
 			"settings":
 			{
-				"buffer_size": 9393,
+				"buffer_size": 9708,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +206,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/home.css",
 			"settings":
 			{
-				"buffer_size": 2923,
+				"buffer_size": 3296,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +214,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/projects.css",
 			"settings":
 			{
-				"buffer_size": 4276,
+				"buffer_size": 4385,
 				"line_ending": "Windows"
 			}
 		}
@@ -331,15 +346,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/home.html",
 					"settings":
 					{
-						"buffer_size": 11968,
+						"buffer_size": 11961,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								939,
-								939
+								7107,
+								7141
 							]
 						],
 						"settings":
@@ -349,7 +364,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1921.0,
+						"translation.y": 2070.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -359,15 +374,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/projects.html",
 					"settings":
 					{
-						"buffer_size": 14179,
+						"buffer_size": 14178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5955,
-								5955
+								13712,
+								13712
 							]
 						],
 						"settings":
@@ -377,7 +392,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2913.0,
+						"translation.y": 5131.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -393,15 +408,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/js/main.js",
 					"settings":
 					{
-						"buffer_size": 3459,
+						"buffer_size": 4080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2991,
-								2991
+								2908,
+								2908
 							]
 						],
 						"settings":
@@ -411,7 +426,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -421,15 +436,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/main.css",
 					"settings":
 					{
-						"buffer_size": 9393,
+						"buffer_size": 9708,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								523,
-								523
+								309,
+								309
 							]
 						],
 						"settings":
@@ -439,7 +454,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 18.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -449,15 +464,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/home.css",
 					"settings":
 					{
-						"buffer_size": 2923,
+						"buffer_size": 3296,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2209,
-								2209
+								2532,
+								2532
 							]
 						],
 						"settings":
@@ -468,7 +483,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1350.0,
+						"translation.y": 1262.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -478,15 +493,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/projects.css",
 					"settings":
 					{
-						"buffer_size": 4276,
+						"buffer_size": 4385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1275,
-								1275
+								1475,
+								1475
 							]
 						],
 						"settings":
@@ -496,7 +511,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
