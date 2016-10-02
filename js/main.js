@@ -90,21 +90,23 @@ var projectScroll = document.getElementsByClassName("projectScroll");
 function toggleProjectNav() {
     if (toggleState1 == true) {        
         document.getElementById("projectNav").style.marginTop = "-120px";
-        document.getElementById("toggleProjNavA").style.display = "none";
-        document.getElementById("toggleProjNavB").style.display = "block";
+        // document.getElementById("toggleProjNavA").style.display = "none";
+        // document.getElementById("toggleProjNavB").style.display = "block";
+        document.getElementById("toggleProjNav").innerHTML = "show";
         projectScroll[0].style.marginTop = "-120px";
         projectScroll[1].style.marginTop = "-120px";
     } else {
         document.getElementById("projectNav").style.marginTop = "0px";
-        document.getElementById("toggleProjNavA").style.display = "block";
-        document.getElementById("toggleProjNavB").style.display = "none";
+        // document.getElementById("toggleProjNavA").style.display = "block";
+        // document.getElementById("toggleProjNavB").style.display = "none";
+        document.getElementById("toggleProjNav").innerHTML = "hide";
         projectScroll[0].style.marginTop = "0";
         projectScroll[1].style.marginTop = "0";
     }
     toggleState1 = !toggleState1;
 }
 
-
+toggleProjNav();
 
 // var getImgList = document.getElementsByClassName("projectLiImg").src;
 
@@ -113,3 +115,9 @@ function toggleProjectNav() {
 //         document.getElementById("wallpaper").src = this.getImgList[i];
 //     }
 // }
+
+
+
+function tutorVid() {
+    document.getElementById("wallpaper").style.width: "100%"";
+}

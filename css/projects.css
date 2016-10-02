@@ -93,17 +93,17 @@
 }
 
 .leftN a {    
-    padding-right: 80px;
+    padding-left: 80px;
 }
 
 .leftN:active {
     transition: 0.3s;
-    background: linear-gradient(to right, #283238 , #3a7cff);
+    background: linear-gradient(to right, #283238 , #660099);   /*#3a7cff*/
 }
 
 .rightN:active {
     transition: 0.3s;
-    background: linear-gradient(to left, #283238 , #3a7cff);
+    background: linear-gradient(to left, #283238 , #660099);
 }
 
 .rightN {

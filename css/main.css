@@ -64,7 +64,7 @@ ul.topNavClass {
     height: 100%; 
 }
 
-.topNavLi {
+ul li {
     display: inline;
     text-align: center;
     height: 100%; 
@@ -323,7 +323,7 @@ ul.topNavClass {
     margin: auto;
     float:left;
     display: inline-block;
-    text-align: left;
+    
     width: 14%;
     margin-bottom: 5px;
 }
@@ -362,11 +362,9 @@ ul.topNavClass {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding: 0;
-    vertical-align: text-bottom;
+    padding: 0 auto;
     list-style: none;
     display: inline;
-    text-align: center;
     height: 100%; 
     width: 16%; 
 }
