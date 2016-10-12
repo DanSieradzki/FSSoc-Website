@@ -1,21 +1,21 @@
-var toggleState0 = true;
+var toggleState0 = false;
 var toggleState1 = true;
 var toggleState2 = true;
 
 //toggleNav js code - no need to un-comment it unless for Projects or possibly tutorials page
 
-// function toggleNav() {
-// 	if (toggleState0 == true) {
-// 		document.getElementById("sideNavId").style.marginLeft = "-116px";
-// 		document.getElementById("toggleSideNavId").style.backgroundColor = "#333";
-// 		document.getElementById("toggleSideNavId").innerHTML = "&#10095";
-// 	} else {
-// 		document.getElementById("sideNavId").style.marginLeft = "0px";
-// 		document.getElementById("toggleSideNavId").style.backgroundColor = "transparent";
-// 		document.getElementById("toggleSideNavId").innerHTML = "&#10094";
-// 	}
-// 	toggleState0 = !toggleState0;
-// }
+function toggleTutorialNav() {
+	if (toggleState0 == true) {
+		document.getElementById("sideNavId").style.marginLeft = "-116px";
+		document.getElementById("toggleSideNavId").style.backgroundColor = "#333";
+		document.getElementById("toggleSideNavId").innerHTML = "&#10095";
+	} else {
+		document.getElementById("sideNavId").style.marginLeft = "0px";
+		document.getElementById("toggleSideNavId").style.backgroundColor = "transparent";
+		document.getElementById("toggleSideNavId").innerHTML = "&#10094";
+	}
+	toggleState0 = !toggleState0;
+}
 
 function hbToggleNav() {
 	if (toggleState1 == true) {

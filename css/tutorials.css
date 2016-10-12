@@ -22,11 +22,11 @@
     transition: 0.6s;
 }
 
-    .sideNavClass    {
+    .tutorialBroswer    {
         height: 100%;
         width: 146px;
         position: fixed;
-        margin-left: 0px;
+        margin-left: -116px;
         z-index: 1;
         top: 60px;
         /*bottom: 60px;*/
