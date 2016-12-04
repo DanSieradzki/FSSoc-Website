@@ -204,3 +204,15 @@
         width: 100%;
         margin-top: 3%;
     }
+
+    @media all and (max-width: 1000px) {   
+    .leftN  {
+        padding-left: 10%;
+    }
+    .rightN  {
+        padding-right: 10%;
+    }
+    .enclosure  {
+        width: 70%
+    }
+}
