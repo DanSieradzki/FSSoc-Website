@@ -115,3 +115,13 @@ function toggleProjectNav() {
 function tutorVid() {
     document.getElementById("wallpaper").style.width = "100%";
 }
+
+function toggleColor()  {
+    if (colourScheme == true)   {
+    document.getElementsByTagName("header").style.backgroundColor = "#151718";  //Main menu bar colour
+    document.getElementById("headerHr").style.backgroundColor = "#bb882e";  //Main menu underline bar colour
+    document.getElementsByClassName("wallpaperBar").style.backgroundColor = "#232c31";  //Welcome bar colour
+    }
+
+}
+

@@ -6,10 +6,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>FSSoc Home</title>
+    <title>FSSoc</title>
 
-    <link rel="shortcut-icon" type="../img/logo.png" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- <link rel="shortcut-icon" type="../img/logo.png" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
     <link rel="stylesheet" href="../img/logo.png" type='img/logo.png'>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/boilerplate.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -36,13 +36,14 @@
                             <a href="#">Gallery</a>
                             <a href="#">News</a>
                             <a href="#">Team</a>
+                            <a href="#">Alumni</a>
                         </div>
                     </li><!-- 
                  --><li class="topNavLi two">
                         <a href="#" id="Projects" class="topNavBtn">Projects</a>
                         <div class="dropdown">
                             <a href="projects.php">It Flies</a>
-                            <a href="#">Pheonix</a>
+                            <a href="#">Phoenix</a>
                         </div>
                     </li><!-- 
                  --><li class="topNavLi three">
@@ -66,7 +67,6 @@
                  --><li class="topNavLi six">
                         <a href="contact.php" id="Contact" class="topNavBtn">Contact</a>
                         <div class="dropdown">
-                            <a href="#">Alumni</a>
                             <a href="#">Sponsors</a>
                             <a href="#">Send us a message</a>
                         </div>
@@ -90,6 +90,9 @@
             <div class="pplink">
                 <a href="#">Team</a>
             </div>
+            <div class="pplink">
+                <a href="#">Alumni</a>
+            </div>
         </div>
         <a href="#" class="accordion">Projects</a>
         <div class="panel" id="hbProjects">
@@ -97,7 +100,7 @@
                 <a href="projects.php">It Flies</a>
             </div>
             <div class="pplink">
-                <a href="#">Pheonix</a>
+                <a href="#">Phoenix</a>
             </div>
         </div>
         <a href="#" class="accordion">Calendar</a>

@@ -1,14 +1,14 @@
 <?php require'templateHeader.php'; ?>
 
 <div id="container">
-    <div class-"wallpaper">
-        <img id="wallpaper" src="../img/wallpaper1.jpg" alt="wallpaper">
+    <div class="parallax_layer wallpaper">
+        <img class="wallpaperImg" src="../img/wallpaper1.jpg" alt="wallpaper">
+    </div>
+    <div class="parallax_layer pageContent">
         <div class="wallpaperBar">
             <h1>Welcome to the University of Manchester's Flight Simulation Society</h1>
             <h2>Welcome to FSSoc</h2>
         </div>
-    </div>
-    <div class="pageContent">
         <div id="first">
             <div class="divContent">
                 <img src="../img/crest.png" id="crest">
