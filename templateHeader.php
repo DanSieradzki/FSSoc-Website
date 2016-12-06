@@ -27,7 +27,7 @@
 
             <header>
                 <a href="#" id="logo">
-                    <img src="../img/logo.png" alt="Logo">
+                    <img src="../img/favicon.png" alt="Logo">
                 </a>
                 <ul class="topNavClass">
                     <li class="topNavLi one">
