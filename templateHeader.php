@@ -73,6 +73,15 @@
                     </li>
                     <hr id="headerHr">
                 </ul>
+                <div class="topNavExtra">
+                    <span class="login">Login</span>
+                    <div class="dropdown">
+                        <form action="action_page.php">First name:
+                            <input type="text" name="firstname" value="Mickey">                
+                            <input type="text" name="lastname" value="Mouse">                      
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
                 <span id="hamburger" onclick="hbToggleNav()">&#9776;</span>
             </header>
 
