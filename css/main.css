@@ -33,6 +33,9 @@ p	{
 }
 
 /*=================== TOP NAVIGATION ===================*/
+html    {
+    background-color: #151718;
+}
 
 header {
     height: 60px;
@@ -359,14 +362,12 @@ ul li {
 
 .footerList1    {
     font-size: 15px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding: 0 auto;
     list-style: none;
-    display: inline;
-    height: 100%; 
-    width: 16%; 
+    display: inline-block;
+    padding: 0;
 }
 
 .footerList1 a  {
