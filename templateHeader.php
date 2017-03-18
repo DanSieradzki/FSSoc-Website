@@ -70,10 +70,20 @@
                             <a href="#">Sponsors</a>
                             <a href="#">Send us a message</a>
                         </div>
+                    </li><!--
+                    --><li class="topNavLi">
+                        <a class="login">Login</a>
+                        <div class="dropdown">
+                            <form action="action_page.php">First name:
+                            <input type="text" name="firstname" value="Mickey">                
+                            <input type="text" name="lastname" value="Mouse">                      
+                            <input type="submit" value="Submit">
+                        </form>
+                        </div>
                     </li>
                     <hr id="headerHr">
                 </ul>
-                <div class="topNavExtra">
+                <!-- <div class="topNavExtra">
                     <span class="login">Login</span>
                     <div class="dropdown">
                         <form action="action_page.php">First name:
@@ -82,7 +92,8 @@
                             <input type="submit" value="Submit">
                         </form>
                     </div>
-                <span id="hamburger" onclick="hbToggleNav()">&#9776;</span>
+                    <span id="hamburger" onclick="hbToggleNav()">&#9776;</span>
+                </div> -->
             </header>
 
     <div id="myhbSidenav" class="hbsidenav">

@@ -91,7 +91,7 @@
             </a> -->
         </li>
         <li>
-            <a class="tLink" href="#">YouTube</a>
+            <a class="tLink" href="https://www.youtube.com/channel/UC9gwDfbtkiL8jow0wA_Lhhg">YouTube</a>
             <!-- <a class="iIcon" href="#">
                 <img src="img/yTIcon.png" alt="YouTube icon">
             </a> -->
