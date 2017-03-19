@@ -1,24 +1,18 @@
 /*=================== PAGE CONTENT ===================*/
-
-   
-
     .wallpaper  {
         width: 100%;
         height: 20px;
         overflow: hidden;
     }
-
     #wallpaper  {
         width: 100%;
         height: 50%;
         overflow: hidden;
     }
-
     .pageContent    {
         width: 100%;
         margin: 0 auto;
     }
-
     .wallpaperBar   {
         width: 100%;
         height: 60px;
@@ -27,14 +21,12 @@
         float: left;
         font-family: 'Libre Franklin', sans-serif;
     }
-
     .wallpaperBar h1  {
         color: #eee;
         text-align: center;
         font-size: 25px;
         padding-top: 0;
     }
-
     .wallpaperBar h2  {
         display: none;
         color: #eee;
@@ -44,21 +36,38 @@
         width: 100%;
         margin-top: 3%;
     }
-
+    #second {
+      background-color: #232c31;
+    }
+    #second #third.divContent  {
+      color: #ddd;
+    }
+    .projectImg   {
+      max-width: 40%
+      display: inline-block;
+    }
+    .itFliesImg  {
+      float: left;
+    }
+    .phoenixImg  {
+      float: right;
+    }
+    .projectImgCaption  {
+      max-width: 50%
+      padding-left: 40%;
+      font-size: 13px;
+      display: inline-block;
+    }        
     /*test*/
-
    /* @import url(http://weloveiconfonts.com/api/?family=zocial);*/
-
     /* zocial */
     [class*="zocial-"]:before {
       font-family: 'zocial', sans-serif;
   }
-
   .iconBar {
       padding: 120px 0 0;
       text-align: center;
   }
-
   .socialIcon {
       display: inline-block;
       width: 50px;
@@ -74,9 +83,7 @@
       overflow: hidden;
       cursor: pointer;
   }
-
   .socialIcon {
-
      text-shadow: rgb(226, 226, 226) 1px 1px,
      rgb(227, 227, 227) 2px 2px,
      rgb(227, 227, 227) 3px 3px,
@@ -98,7 +105,6 @@
      rgb(237, 237, 237) 19px 19px,
      rgb(238, 238, 238) 20px 20px;
  }
-
  #first {
   width: 100%;
   height: 25%;
@@ -107,31 +113,25 @@
   color: #333;
   text-align: left;
  }
-
  .divContent  {
   width: 55%;
   margin: 10px auto;
  }
-
  #crest {
   float: left;
   width: 90px;
   height: 150px;
   margin: -10px 30px 20px 20px;
  }
-
  #first h1 {
   font-size: 30px;  
   padding-left: 155px;
  }
-
  #first p {
   font-size: 16px;
   margin-bottom: 5%
  }
-
 /*=================== MEDIA QUERIES ===================*/
-
 @media all and (max-width: 1175px) {
     .divContent {     
     margin-left: 0px;
@@ -139,13 +139,11 @@
     width: 90%;
     }
 }
-
 @media all and (max-width: 850px) {
     .wallpaperBar h1    {
         font-size: 20px
     }
 }
-
  @media all and (max-width: 700px) {
     .wallpaperBar h1    {
         display: none;
@@ -158,7 +156,6 @@
     margin-left: 28%;
     }
 }
-
 @media all and (max-width: 550px) {
    .divContent p {
       margin-left: 0px;
@@ -168,10 +165,8 @@
       padding-left: 30%
     }
 }
-
 @media all and (max-width: 480px) {
     .wallpaperBar h2    {
         font-size: 20px
     }
 }
-

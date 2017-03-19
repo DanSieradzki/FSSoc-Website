@@ -12,19 +12,13 @@
             </ul>
         </div>
         <div class="footerList">
-            <a class="footerListTitle" href="projects.php">Projects</a><br>
+            <a class="footerListTitle" href="#">Projects</a><br>
             <ul class="footerList0">
                 <li>
-                    <a href="#">It Flies</a><br>
+                    <a href="itFlies.php">It Flies</a><br>
                 </li>
                 <li>
-                    <a href="#">Pheonix</a><br>
-                </li>
-                <li>
-                    <a href="#">3rd Year Projects</a><br>
-                </li>
-                <li>
-                    <a href="#">4th Year Projects</a>
+                    <a href="phoenix.php">Pheonix</a><br>
                 </li>
             </ul>
         </div>

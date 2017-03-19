@@ -11,14 +11,15 @@
     <!-- <link rel="shortcut-icon" type="../img/logo.png" href="favicon.ico" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
     <link rel="stylesheet" href="../img/logo.png" type='img/logo.png'>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/boilerplate.css">
+    <link rel="stylesheet" href="../css/normalize.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/main.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/style.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="../css/boilerplate.css?<?php echo time(); ?>">
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
         <!--[if lt IE 8]>
@@ -35,14 +36,14 @@
                         <div class="dropdown">
                             <a href="#">Gallery</a>
                             <a href="#">News</a>
-                            <a href="#">Team</a>
+                            <a href="#">Committee</a>
                             <a href="#">Alumni</a>
                         </div>
                     </li><!-- 
                  --><li class="topNavLi two">
                         <a href="#" id="Projects" class="topNavBtn">Projects</a>
                         <div class="dropdown">
-                            <a href="projects.php">It Flies</a>
+                            <a href="itFlies.php">It Flies</a>
                             <a href="#">Phoenix</a>
                         </div>
                     </li><!-- 
@@ -71,12 +72,12 @@
                             <a href="#">Send us a message</a>
                         </div>
                     </li><!--
-                    <!-- <li class="topNavLi">
+                    <!-- <li class="topNavLi seven">
                         <a class="login">Login</a>
                         <div class="dropdown">
                             <form action="action_page.php">First name:
-                            <input type="text" name="firstname" value="Mickey">                
-                            <input type="text" name="lastname" value="Mouse">                      
+                            <input type="text" name="username" value="Username">                
+                            <input type="text" name="password" value="Password">                      
                             <input type="submit" value="Submit">
                         </form>
                         </div>
@@ -97,7 +98,7 @@
                 <a href="#">News</a>
             </div>
             <div class="pplink">
-                <a href="#">Team</a>
+                <a href="#">Committee</a>
             </div>
             <div class="pplink">
                 <a href="#">Alumni</a>
@@ -106,7 +107,7 @@
         <a href="#" class="accordion">Projects</a>
         <div class="panel" id="hbProjects">
             <div class="pplink">
-                <a href="projects.php">It Flies</a>
+                <a href="itFlies.php">It Flies</a>
             </div>
             <div class="pplink">
                 <a href="#">Phoenix</a>
