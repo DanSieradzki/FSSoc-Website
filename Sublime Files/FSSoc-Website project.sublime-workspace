@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"projectImgCaption"
+			],
+			[
+				"right",
+				"rightN"
+			],
+			[
+				"di",
+				"divContent"
+			],
+			[
 				"Foo",
 				"footerList1"
 			],
@@ -62,10 +74,6 @@
 			[
 				"projec",
 				"projectScroll"
-			],
-			[
-				"pro",
-				"projectLi"
 			],
 			[
 				"color",
@@ -180,18 +188,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/home.html",
-			"settings":
-			{
-				"buffer_size": 11774,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateHeader.php",
 			"settings":
 			{
-				"buffer_size": 6514,
+				"buffer_size": 6713,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +199,23 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateFooter.php",
 			"settings":
 			{
-				"buffer_size": 4473,
+				"buffer_size": 4284,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/index.php",
+			"settings":
+			{
+				"buffer_size": 2835,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/itFlies.php",
+			"settings":
+			{
+				"buffer_size": 4032,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,7 +231,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/main.css",
 			"settings":
 			{
-				"buffer_size": 9631,
+				"buffer_size": 8853,
 				"line_ending": "Windows"
 			}
 		},
@@ -228,10 +244,18 @@
 			}
 		},
 		{
-			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/projects.css",
+			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/itFlies.css",
 			"settings":
 			{
-				"buffer_size": 3559,
+				"buffer_size": 3664,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/home.css",
+			"settings":
+			{
+				"buffer_size": 3605,
 				"line_ending": "Windows"
 			}
 		}
@@ -260,6 +284,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Daniel/Documents/GitHub/1Flightsim/itflies.php",
+		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/deploy.php",
+		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/home.html",
 		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/tutorials.html",
 		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/projects.html",
 		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/clipboard/clipboard.html",
@@ -275,7 +302,6 @@
 		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/contact.html",
 		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/intranet.html",
 		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/projects.html",
-		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/home.html",
 		"/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/boilerplate.css",
 		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/FSSoc projects website.sublime-workspace",
 		"/C/Users/Daniel/Documents/SourceTree/Delta Stream website/projects/diamante.html",
@@ -331,6 +357,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#second",
+			"projectImg",
+			"css",
+			">\n",
+			"divContent",
+			"li follow",
 			"40",
 			"footer",
 			"foort",
@@ -360,28 +392,56 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/pages/home.html",
+					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateHeader.php",
 					"settings":
 					{
-						"buffer_size": 11774,
+						"buffer_size": 6713,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3353,
-								3353
+								653,
+								585
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateFooter.php",
+					"settings":
+					{
+						"buffer_size": 4284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -392,57 +452,57 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateHeader.php",
+					"buffer": 2,
+					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/index.php",
 					"settings":
 					{
-						"buffer_size": 6514,
+						"buffer_size": 2835,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4660,
-								4660
+								1063,
+								1073
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateFooter.php",
+					"buffer": 3,
+					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/itFlies.php",
 					"settings":
 					{
-						"buffer_size": 4473,
+						"buffer_size": 4032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3292,
-								3292
+								207,
+								207
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 770.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -450,11 +510,11 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/js/main.js",
 					"settings":
 					{
@@ -465,8 +525,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								3025,
+								3025
 							]
 						],
 						"settings":
@@ -476,25 +536,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1125.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/main.css",
 					"settings":
 					{
-						"buffer_size": 9631,
+						"buffer_size": 8853,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6959,
-								6959
+								1521,
+								1522
 							]
 						],
 						"settings":
@@ -504,13 +564,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4991.0,
+						"translation.y": 866.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/tutorials.css",
 					"settings":
 					{
@@ -538,19 +598,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/projects.css",
+					"buffer": 7,
+					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/itFlies.css",
 					"settings":
 					{
-						"buffer_size": 3559,
+						"buffer_size": 3664,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								731,
-								731
+								2714,
+								2714
 							]
 						],
 						"settings":
@@ -560,7 +620,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 233.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/home.css",
+					"settings":
+					{
+						"buffer_size": 3605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2637,
+								2637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1248.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -596,7 +684,7 @@
 		"cols":
 		[
 			0.0,
-			0.489298241411,
+			0.583389832909,
 			1.0
 		],
 		"rows":
