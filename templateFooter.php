@@ -7,10 +7,10 @@
                     <a href="#">Gallery</a><br>
                 </li>
                 <li>
-                    <a href="#">News</a>
+                    <a href="#">News</a><br>
                 </li>
                 <li>
-                    <a href="#">Committee</a>
+                    <a href="#">Committee</a><br>
                 </li>
                 <li>
                     <a href="#">Alumni</a>

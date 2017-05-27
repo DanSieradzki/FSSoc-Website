@@ -334,6 +334,7 @@ li.follow    {
 #footerHr   {
     width: 1224px;
     border: 1px solid #bb882e;
+    margin-top: 15px;
 }
 .footerList1 a:hover   {
     text-decoration: underline;
