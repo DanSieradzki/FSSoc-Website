@@ -5,9 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">        
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>FSSoc</title>
-
     <!-- <link rel="shortcut-icon" type="../img/logo.png" href="favicon.ico" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
     <link rel="stylesheet" href="../img/logo.png" type='img/logo.png'>
@@ -25,7 +23,6 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
-
             <header>
                 <a href="#" id="logo">
                     <img src="../img/favicon.png" alt="Logo">
@@ -85,7 +82,6 @@
                     <hr id="headerHr">
                 </ul>
             </header>
-
             <div id="myhbSidenav" class="hbsidenav">
                 <a href="javascript:void(0)" class="hbclosebtn" onclick="hbToggleNav()">&#9776;</a>
                 <span href="javascript:void(0)" id="hbTapSide" onclick="hbToggleNav()"></span>

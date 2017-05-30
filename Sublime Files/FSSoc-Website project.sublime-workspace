@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"proj",
+				"projectImgCaptionItFlies"
+			],
+			[
 				"pro",
+				"projectImgCaptionItFlies"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"project",
 				"projectImgCaption"
+			],
+			[
+				"marg",
+				"margin-right"
 			],
 			[
 				"right",
@@ -32,20 +52,12 @@
 				"background-color"
 			],
 			[
-				"margin",
-				"marginLeft"
-			],
-			[
 				"getElem",
 				"getElementById"
 			],
 			[
 				"padd",
 				"padding-left"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"getImg",
@@ -82,14 +94,6 @@
 			[
 				"paddin",
 				"padding-right"
-			],
-			[
-				"project",
-				"projectLiTitle"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"bl",
@@ -191,7 +195,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateHeader.php",
 			"settings":
 			{
-				"buffer_size": 6713,
+				"buffer_size": 7066,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +203,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateFooter.php",
 			"settings":
 			{
-				"buffer_size": 4284,
+				"buffer_size": 4949,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,7 +211,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/index.php",
 			"settings":
 			{
-				"buffer_size": 2835,
+				"buffer_size": 2792,
 				"line_ending": "Windows"
 			}
 		},
@@ -223,7 +227,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/js/main.js",
 			"settings":
 			{
-				"buffer_size": 4380,
+				"buffer_size": 4355,
 				"line_ending": "Windows"
 			}
 		},
@@ -231,7 +235,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/main.css",
 			"settings":
 			{
-				"buffer_size": 8853,
+				"buffer_size": 8940,
 				"line_ending": "Windows"
 			}
 		},
@@ -255,8 +259,17 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/home.css",
 			"settings":
 			{
-				"buffer_size": 3605,
+				"buffer_size": 4393,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/homeMobile.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "homeMobile"
 			}
 		}
 	],
@@ -357,6 +370,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"topNavBtn",
+			"divconte",
+			"container",
+			"divcontent",
 			"#second",
 			"projectImg",
 			"css",
@@ -392,7 +409,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -400,15 +417,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateHeader.php",
 					"settings":
 					{
-						"buffer_size": 6713,
+						"buffer_size": 7066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								653,
-								585
+								2346,
+								2346
 							]
 						],
 						"settings":
@@ -418,7 +435,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -428,15 +445,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/templateFooter.php",
 					"settings":
 					{
-						"buffer_size": 4284,
+						"buffer_size": 4949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								699,
-								699
+								4075,
+								4075
 							]
 						],
 						"settings":
@@ -456,15 +473,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/index.php",
 					"settings":
 					{
-						"buffer_size": 2835,
+						"buffer_size": 2792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1063,
-								1073
+								1644,
+								1644
 							]
 						],
 						"settings":
@@ -491,8 +508,8 @@
 						"selection":
 						[
 							[
-								207,
-								207
+								3094,
+								3094
 							]
 						],
 						"settings":
@@ -502,7 +519,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 675.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -518,15 +535,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/js/main.js",
 					"settings":
 					{
-						"buffer_size": 4380,
+						"buffer_size": 4355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3025,
-								3025
+								4354,
+								4354
 							]
 						],
 						"settings":
@@ -536,7 +553,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -546,15 +563,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/main.css",
 					"settings":
 					{
-						"buffer_size": 8853,
+						"buffer_size": 8940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1521,
-								1522
+								3048,
+								3048
 							]
 						],
 						"settings":
@@ -564,7 +581,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 866.0,
+						"translation.y": 1481.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -630,15 +647,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/home.css",
 					"settings":
 					{
-						"buffer_size": 3605,
+						"buffer_size": 4393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2637,
-								2637
+								3891,
+								3891
 							]
 						],
 						"settings":
@@ -648,7 +665,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1248.0,
+						"translation.y": 2358.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/homeMobile.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "homeMobile",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -684,7 +728,7 @@
 		"cols":
 		[
 			0.0,
-			0.583389832909,
+			0.574689136853,
 			1.0
 		],
 		"rows":

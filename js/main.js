@@ -1,9 +1,7 @@
 var toggleState0 = false;
 var toggleState1 = true;
 var toggleState2 = true;
-
 //toggleNav js code - no need to un-comment it unless for Projects or possibly tutorials page
-
 function toggleTutorialNav() {
 	if (toggleState0 == true) {
 		document.getElementById("sideNavId").style.marginLeft = "-116px";
@@ -16,7 +14,6 @@ function toggleTutorialNav() {
 	}
 	toggleState0 = !toggleState0;
 }
-
 function hbToggleNav() {
 	if (toggleState1 == true) {
 		document.getElementById("myhbSidenav").style.marginRight = "0";
@@ -32,15 +29,11 @@ function hbToggleNav() {
 		document.getElementById("hamburger").style.color = "#eee";
         document.getElementById("container").style.marginLeft = "0";
         document.getElementById("container").style.transition = "0.4s ease-in-out";
-
 	}
 	toggleState1 = !toggleState1;
 }
-
-
 var acc = document.getElementsByClassName("accordion");
 var panel = document.getElementsByClassName('panel');
-
 for (var i = 0; i < acc.length; i++) {
     acc[i].onclick = function() {
         var setClasses = !this.classList.contains('active');
@@ -53,20 +46,13 @@ for (var i = 0; i < acc.length; i++) {
         }
     }
 }
-
 function setClass(els, className, fnName) {
     for (var i = 0; i < els.length; i++) {
         els[i].classList[fnName](className);
     }
 }
-
 var scrollPerc;
 // document.getElementsByClassName("enclosure").addEventListener ("click", scrollRight, false);
-
-
-
-
-
 function scrollRight()  {  
     scrollPerc = scrollPerc - .2; 
     if (scrollPerc <= 0)  {
@@ -75,7 +61,6 @@ function scrollRight()  {
     document.getElementById("projectUl").style.marginLeft = scrollPerc;
     // document.getElementById("projectUl").window.scrollBy(20, 0);
 }
-
 function scrollLeft()  {
     scrollPerc = scrollPerc + .2;   
     if (scrollPerc >= 1)  {
@@ -84,9 +69,7 @@ function scrollLeft()  {
     document.getElementById("projectUl").style.marginLeft = scrollPerc;
     // document.getElementById("projectUl").window.scrollBy(-20, 0);
 }
-
 var projectScroll = document.getElementsByClassName("projectScroll");
-
 function toggleProjectNav() {
     if (toggleState1 == true) {        
         document.getElementById("projectNav").style.marginTop = "-120px";
@@ -101,7 +84,6 @@ function toggleProjectNav() {
     }
     toggleState1 = !toggleState1;
 }
-
 // var getImgList = document.getElementsByClassName("projectLiImg").src;
 
 // for (var i = 0; i < getImgList.length; i++) {
@@ -109,19 +91,13 @@ function toggleProjectNav() {
 //         document.getElementById("wallpaper").src = this.getImgList[i];
 //     }
 // }
-
-
-
 function tutorVid() {
     document.getElementById("wallpaper").style.width = "100%";
 }
-
 function toggleColor()  {
     if (colourScheme == true)   {
     document.getElementsByTagName("header").style.backgroundColor = "#151718";  //Main menu bar colour
     document.getElementById("headerHr").style.backgroundColor = "#bb882e";  //Main menu underline bar colour
     document.getElementsByClassName("wallpaperBar").style.backgroundColor = "#232c31";  //Welcome bar colour
     }
-
 }
-
