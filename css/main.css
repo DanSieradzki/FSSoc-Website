@@ -308,8 +308,11 @@ footer {
     text-decoration: underline;
 }
 .bottomNavMenu   {
-    width: 16%;
+    width: auto;
     display: inline-block;
+}
+.bottomNavSocial    {
+    margin: 0 0.5%;
 }
 .footerList1    {
     font-size: 15px;
@@ -335,7 +338,7 @@ li.follow    {
 #footerHr   {
     width: 1224px;
     border: 1px solid #bb882e;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .footerList1 a:hover   {
     text-decoration: underline;
@@ -397,6 +400,7 @@ li.follow    {
     }
     .antiBreak  {
         display: none;
+        margin-left: 1%;
     }
     .break  {
         display: block;

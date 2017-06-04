@@ -18,18 +18,18 @@
         </div>        
       </div>
       <div id="second">
-        <class="fadeBlackLeft">
+        <div class="fadeBlackLeft">
         <div class="divContent">
           <div class="projectImgCaption" id="projectImgCaptionItFlies">
             <h1>It Flies</h1>
             <p>The Flight Simulation Society enters two teams every year to the IT FLIES UK and USA competitions. The competitions aim to give society members the opportunity to develop the key skills of design and presentations, as well as setting the foundation for future involvement within the society.</p>
-            <a href="#">Learn more</a>        
+            <a href="itFlies.php">Learn more</a>        
           </div>
         </div>
       </div>
     </div>
     <div id="third">
-      <class="fadeBlackRight">
+      <div class="fadeBlackRight">
       <div class="divContent">
         <div class="projectImgCaption" id="projectImgCaptionPhoenix">
           <h1>Project Phoenix</h1>
@@ -50,8 +50,6 @@
 
   <h1>To do list:</h1><br>
   <p>Add login button to far right</p><br>
-  <p>Add social media icon links</p><br>
-  <p>fix menu to top without hamburger disappearing for mobile; see #hamburger for details, currently closebtn is disabled</p><br>
   <p>Figure out why transitions don't work on the accordions</p><br>
 </div>
 
