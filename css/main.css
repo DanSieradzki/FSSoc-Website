@@ -39,6 +39,7 @@ header {
     position: relative;
 }
 #logo {
+    color: #eee;
     position: absolute;
     height: 50px;
     margin: 5px 0 0 5px;
@@ -57,11 +58,11 @@ ul.topNavClass {
     padding: 0 auto;
     height: 100%; 
 }
-ul li {         /*Need to change this so that it's specific to target in Footer*/
+.topNavLi {         /*Need to change this so that it's specific to target in main menu bar*/
     display: inline;
     text-align: center;
     height: 100%; 
-    width: 30%; 
+    width: 16%; 
 }
 .one:hover ~ hr {
   transform: translate(0%) perspective(100px) rotateX(45deg) !important;
@@ -149,13 +150,16 @@ ul li {         /*Need to change this so that it's specific to target in Footer*
 }
 /*=================== HAMBURGER MENU ===================*/
 #hamburger  {
+    z-index: 4;
     cursor:pointer;
-    position: absolute;
+    position: fixed;
     color: #eee;
     right: 10px;
     font-size: 36px;
     padding: 5px 20px;
     display: none;
+    transition: 0.4s;
+    text-decoration: none;
 }
 #myhbSidenav    {
     width: 80%;
@@ -302,6 +306,10 @@ footer {
 }
 .footerList0 a:hover    {
     text-decoration: underline;
+}
+.bottomNavMenu   {
+    width: 16%;
+    display: inline-block;
 }
 .footerList1    {
     font-size: 15px;
@@ -453,14 +461,20 @@ li.follow    {
     }
     .short  {
         display: inline-block;
+        width: 30%;
     }
     .hbsidenav a   {
         text-align: left;
         padding-left: 20px
     }
 }
+@media all and (max-width: 370px) {
+    .bottomNavSocial  {
+        width: 20%;
+    }
+}
 @media all and (max-width: 325px) {
     footer  {        
-        padding-bottom: 100px;
+        padding-bottom: 75px;
     }
 }

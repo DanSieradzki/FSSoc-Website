@@ -24,7 +24,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
             <header>
-                <a href="#" id="logo">
+                <a href="index.php" id="logo">
                     <img src="../img/favicon.png" alt="Logo">
                 </a>
                 <ul class="topNavClass">
@@ -82,8 +82,8 @@
                     <hr id="headerHr">
                 </ul>
             </header>
-            <div id="myhbSidenav" class="hbsidenav">
-                <a href="javascript:void(0)" class="hbclosebtn" onclick="hbToggleNav()">&#9776;</a>
+            <a href="javascript:void(0)" class="hbclosebtn" id="hamburger" onclick="hbToggleNav()">&#9776;</a>
+            <div id="myhbSidenav" class="hbsidenav">                
                 <span href="javascript:void(0)" id="hbTapSide" onclick="hbToggleNav()"></span>
                 <a href="#" class="accordion">Home</a>
                 <div class="panel" id="hbHome">           

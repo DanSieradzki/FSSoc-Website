@@ -74,33 +74,21 @@
 </ul><br>
 <hr id="footerHr">
 <ul class="footerList1">
-    <li class="follow full">Follow The University of Manchester's Flight Simulation Society</li>
-    <li class="follow short">Follow FSSoc</li>
-    <li class="antiBreak" style="color:#666;">|</li>
-    <br class="break">
-    <li>
-        <a class="tLink" href="https://www.facebook.com/UomFlightSim">Facebook</a>
-            <!-- <a class="iIcon" href="https://www.facebook.com/UomFlightSim">
-                <img src="img/fbIcon.png" alt="Fb icon">
-            </a> -->
+    <li class="follow full bottomNavMenu">Follow The University of Manchester's Flight Simulation Society</li>
+    <li class="follow short bottomNavMenu">Follow FSSoc</li>
+    <li class="antiBreak bottomNavMenu" style="color:#666;">|</li>
+    <br class="break bottomNavMenu">
+    <li class="bottomNavMenu bottomNavSocial">
+        <a class="tLink" href="https://www.facebook.com/UomFlightSim">Facebook</a>           
         </li>
-        <li>
-            <a class="tLink" href="https://twitter.com/UoMFlightSim/">Twitter</a>
-           <!--  <a class="iIcon" href="https://twitter.com/UoMFlightSim/">
-                <img src="img/tIcon.png" alt="Twitter icon">
-            </a> -->
+        <li class="bottomNavMenu bottomNavSocial">
+            <a class="tLink" href="https://twitter.com/UoMFlightSim/">Twitter</a>           
         </li>
-        <li>
-            <a class="tLink" href="https://www.youtube.com/channel/UC9gwDfbtkiL8jow0wA_Lhhg">YouTube</a>
-            <!-- <a class="iIcon" href="#">
-                <img src="img/yTIcon.png" alt="YouTube icon">
-            </a> -->
+        <li class="bottomNavMenu bottomNavSocial">
+            <a class="tLink" href="https://www.youtube.com/channel/UC9gwDfbtkiL8jow0wA_Lhhg">YouTube</a>            
         </li>
-        <li>
+        <li class="bottomNavMenu bottomNavSocial">
             <a class="tLink" href="https://www.instagram.com/UOMFlightSim/">Instagram</a>
-            <!-- <a class="iIcon" href="https://www.instagram.com/UOMFlightSim/">
-                <img src="img/iIcon.png" alt="Instagram icon">
-            </a> -->
         </li>
     </ul>
 </footer>
