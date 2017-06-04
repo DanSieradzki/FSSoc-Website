@@ -3,25 +3,20 @@
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
 }
-
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
-
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
-
 body	{
 	margin: 0;
 	padding: 0;
 	height: 100%;
 }
-
 p	{
 	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
 .container: { 
     max-width: 100%;
     margin: auto 0;
@@ -31,12 +26,10 @@ p	{
     background-repeat: no-repeat;
     background-size: cover;    
 }
-
 /*=================== TOP NAVIGATION ===================*/
 html    {
     background-color: #151718;
 }
-
 header {
     height: 60px;
     width: 100%;
@@ -45,7 +38,6 @@ header {
     z-index: 3;
     position: relative;
 }
-
 #logo {
     position: absolute;
     height: 50px;
@@ -55,7 +47,6 @@ header {
     top: 0;
     height: 100%; 
 }
-
 ul.topNavClass {
     list-style-type: none;
     padding: 0;
@@ -66,12 +57,11 @@ ul.topNavClass {
     padding: 0 auto;
     height: 100%; 
 }
-
-ul li {
+ul li {         /*Need to change this so that it's specific to target in Footer*/
     display: inline;
     text-align: center;
     height: 100%; 
-    width: 16%; 
+    width: 30%; 
 }
 .one:hover ~ hr {
   transform: translate(0%) perspective(100px) rotateX(45deg) !important;
