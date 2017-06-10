@@ -25,7 +25,7 @@
             </li><!--
          --><li class="projectLi">
         <a href="#">
-            <img class="projectLiImg" src="../img/projects/deltaStream.jpg" alt="Delta Stream Img">
+            <img class="projectLiImg" src="../img/projects/deltaStream.JPG" alt="Delta Stream Img">
             <h1 class="projectLiTitle">Delta Stream</h1>
         </a>    
             </li><!--
@@ -85,8 +85,8 @@
 
 
 <div id="container">
-     <div class-"wallpaper">        
-        <img id ="wallpaper"></img>
+     <div class="wallpaper">        
+        <img id="wallpaper" src="/img/projects/genesis.png"></img>
      <div class="wallpaperBar">
         <h1>Flight Simulation Projects</h1>
         <h2>FSSoc Projects</h2>

@@ -1,5 +1,5 @@
 <?php require'templateHeader.php'; ?>
-<link rel="stylesheet" href="../css/home.css?version=1">
+<link rel="stylesheet" href="css/home.css?version=1">
 
 <div id="container">
   <div class="parallax_layer wallpaper">

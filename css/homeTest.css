@@ -1,0 +1,39 @@
+#hamburger	{
+
+}
+.wallpaper  { 
+  background-image: url('../img/wallpaper1.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position-x: 75%;
+  height: 66vh;
+}
+.projectBoxes {
+  width: 25%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 20.5vh;
+  color: #fff;
+}
+#aboutUsBox {
+  background-color: #111;
+}
+#itFliesBox {
+  background-color: #333;
+  /*background-image: url('../img/index/mp500.jpg');*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#projectPhoenixBox {
+  background-color: #111;
+  /*background-image: url('../img/index/1.jpg');*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#aiaaBox  {
+  background-color: #333;
+}
+.projectImgCaption p {
+  display: none;
+}

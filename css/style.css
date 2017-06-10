@@ -141,7 +141,7 @@
     top: 60px;
     width: 5%;
     padding: 42.5px 0;
-    background-color: #283238;
+    background-color: #1b2327;
     color: #eee;
     position: absolute;
     display: inline-block;    
@@ -249,12 +249,16 @@
     height: 30px;
     text-align: center;
     font-size: 15px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #232c31;
 }
 #toggleProjNav a {
     text-decoration: none;
+    color: #eee;
+}
+#toggleProjNav a:hover  {
+  text-decoration: underline;
+  transition: 0.2s;
+  color: #bb882e;
 }
 #toggleProjNavB {
     display: none;

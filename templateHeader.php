@@ -25,7 +25,8 @@
             <![endif]-->
             <header>
                 <a href="index.php" id="logo">
-                    <img src="../img/favicon.png" alt="Logo">
+                    <img src="img/projects/logo.png" id="noHoverLogo" alt="Logo">
+                    <!-- <img src="img/projects/logoHover.png" id="hoverLogo" alt="Logo"> -->
                 </a>
                 <ul class="topNavClass">
                     <li class="topNavLi one">

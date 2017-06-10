@@ -136,9 +136,10 @@
 /*=================== PAGE CONTENT ===================*/
     .wallpaper  {
         width: 100%;
-        height: 20px;
         overflow: hidden;
-        background-color: #111;
+        background-image: url('img/projects/deltaStream.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
     #wallpaper  {
         width: 50%;
