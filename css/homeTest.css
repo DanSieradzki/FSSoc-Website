@@ -69,3 +69,6 @@ transition: 0.4s;
 .disappearingClass1 h1 {
     margin-bottom: 0;
 }
+.projectBoxes:hover .hoverUnderline {
+  text-decoration: underline;
+}
