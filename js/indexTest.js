@@ -3,6 +3,7 @@ var projectBoxMinimised = document.getElementsByClassName('projectBoxes');
 var textAligningLeft = document.getElementsByClassName('projectImgCaptionT');
 var marginLefting = document.getElementsByClassName('projectImgCaptionT');
 var resetDisappearing = document.getElementsByClassName('resetDisappear');
+var crestDisappearing = document.getElementsByClassName('crest');
 
 function expandBase()   {
     for (i = 0; i < disappearing.length; i++) {
@@ -15,13 +16,16 @@ function expandBase()   {
        textAligningLeft[i].style.textAlign = "left";
     }
     for (i = 0; i < marginLefting.length; i++) {
-       marginLefting[i].style.marginLeft = "35vh";
+       marginLefting[i].style.marginLeft = "45vh";
+    }
+    for (i = 0; i < crestDisappearing.length; i++) {
+       crestDisappearing[i].style.display = "none";
     }
 }
 function expandAboutUs()    {
     expandBase();
     document.getElementById("aboutUsBox").style.width = "91%";
-    // document.getElementById("crest").style.display = "inline-block";
+    document.getElementById("crestFSSoc").style.display = "inline-block";
     document.getElementById("projectImgCaptionAboutT").style.display = "block";
     document.getElementById("expandResetAboutUs").style.display = "inline-block";
     document.getElementById("aboutUsExpanded").style.display = "inline-block";
@@ -29,6 +33,7 @@ function expandAboutUs()    {
 function expandItFlies()    {
     expandBase();
     document.getElementById("itFliesBox").style.width = "91%";   
+    document.getElementById("crestItFlies").style.display = "inline-block";
     document.getElementById("projectImgCaptionItFliesT").style.display = "block"; 
     document.getElementById("expandResetItFlies").style.display = "inline-block";
     document.getElementById("itFliesExpanded").style.display = "inline-block";

@@ -5,7 +5,7 @@
 		[
 			[
 				"margin",
-				"margin-bottom"
+				"margin-top"
 			],
 			[
 				"get",
@@ -251,7 +251,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/indexTest.php",
 			"settings":
 			{
-				"buffer_size": 4275,
+				"buffer_size": 4409,
 				"line_ending": "Windows"
 			}
 		},
@@ -267,7 +267,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/js/indexTest.js",
 			"settings":
 			{
-				"buffer_size": 2988,
+				"buffer_size": 3243,
 				"line_ending": "Windows"
 			}
 		},
@@ -315,7 +315,7 @@
 			"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/homeTest.css",
 			"settings":
 			{
-				"buffer_size": 1377,
+				"buffer_size": 1489,
 				"line_ending": "Windows",
 				"name": "homeTest"
 			}
@@ -420,6 +420,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"crest",
 			"projectImgCaptionT",
 			"expandedBoxDescription",
 			"resetisappearing",
@@ -590,15 +591,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/indexTest.php",
 					"settings":
 					{
-						"buffer_size": 4275,
+						"buffer_size": 4409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3688,
-								3688
+								1880,
+								1958
 							]
 						],
 						"settings":
@@ -652,15 +653,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/js/indexTest.js",
 					"settings":
 					{
-						"buffer_size": 2988,
+						"buffer_size": 3243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								834,
-								834
+								887,
+								887
 							]
 						],
 						"settings":
@@ -687,8 +688,8 @@
 						"selection":
 						[
 							[
-								3307,
-								3307
+								9138,
+								9143
 							]
 						],
 						"settings":
@@ -698,7 +699,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1458.0,
+						"translation.y": 6018.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -715,8 +716,8 @@
 						"selection":
 						[
 							[
-								2487,
-								2487
+								2926,
+								2926
 							]
 						],
 						"settings":
@@ -799,8 +800,8 @@
 						"selection":
 						[
 							[
-								442,
-								442
+								3131,
+								3056
 							]
 						],
 						"settings":
@@ -810,7 +811,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1908.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -820,15 +821,15 @@
 					"file": "/C/Users/Daniel/Documents/GitHub/FSSoc-Website/css/homeTest.css",
 					"settings":
 					{
-						"buffer_size": 1377,
+						"buffer_size": 1489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								876,
-								894
+								1127,
+								1127
 							]
 						],
 						"settings":
@@ -839,7 +840,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 513.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

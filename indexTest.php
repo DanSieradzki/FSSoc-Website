@@ -12,9 +12,9 @@
       <h2>Welcome to FSSoc</h2>
     </div><!-- 
      --><div class="projectBoxes" id="aboutUsBox" onclick="expandAboutUs()">
-     <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetAboutUs" onclick="expandReset">x</a>
+     <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetAboutUs" onclick="expandReset">&times;</a>
         <div class="projectImgCaptionT disappearingClass1" id="projectImgCaptionAboutT">
-          <img src="../img/crest.png" id="crest">
+          <img src="../img/crest.png" class="crest" id="crestFSSoc">
           <h1>About us</h1>
           <p class="disappearingClass1 hoverUnderline">Find out who we are</p>
           <div class="expandedBoxDescription disappearingClass1 resetDisappear" id="aboutUsExpanded">
@@ -24,8 +24,9 @@
         </div>        
       </div><!-- 
        --><div class="projectBoxes" id="itFliesBox" onclick="expandItFlies()">
-       <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetItFlies" onclick="expandReset">x</a>
+       <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetItFlies" onclick="expandReset">&times;</a>
           <div class="projectImgCaptionT disappearingClass1" id="projectImgCaptionItFliesT">
+            <img src="../img/logos/merlinItFliesLogo.jpg" class="crest" id="crestItFlies">
             <h1>It Flies</h1>
             <p class="disappearingClass1 hoverUnderline">See some of the concepts we've developed</p>
             <div class="expandedBoxDescription disappearingClass1 resetDisappear" id="itFliesExpanded">
@@ -35,7 +36,7 @@
         </div>
       </div><!-- 
        --><div class="projectBoxes" id="projectPhoenixBox" onclick="expandProjectPhoenix()">
-       <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetProjectPhoenix" onclick="expandReset">x</a>
+       <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetProjectPhoenix" onclick="expandReset">&times;</a>
           <div class="projectImgCaptionT disappearingClass1" id="projectImgCaptionPhoenixT">
             <h1>Project Phoenix</h1>
             <p class="disappearingClass1 hoverUnderline">Delve into our mission to build a simulator</p>
@@ -46,7 +47,7 @@
         </div>        
       </div><!-- 
        --><div class="projectBoxes" id="aiaaBox" onclick="expandAIAA()">
-       <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetAIAA" onclick="expandReset">x</a>
+       <a href="javascript:void(0)" class="expandResetX disappearingClass1 resetDisappear" id="expandResetAIAA" onclick="expandReset">&times;</a>
           <div class="projectImgCaptionT disappearingClass1" id="projectImgCaptionAIAAT">
             <h1>AIAA</h1>
             <p class="disappearingClass1 hoverUnderline">Explore our latest venture</p>
